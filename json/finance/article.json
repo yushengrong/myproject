@@ -1,0 +1,25 @@
+{
+  "newslist":[
+    {
+      "content": "农融会见中国信保广西分公司总经理张显",
+      "read": "1233阅读",
+      "click": "·",
+      "time": "3小时前",
+      "image": "../images/finance/newslist1.png"
+    },
+    {
+      "content": "全市召开2019年脱贫攻坚推进大会暨国家脱贫",
+      "read": "1233阅读",
+      "click": "·",
+      "time": "3小时前",
+      "image": "../images/finance/newslist2.png"
+    },
+    {
+      "content": "2019年市委常委会召开会议李新元主持会议并讲话",
+      "read": "1233阅读",
+      "click": "·",
+      "time": "3小时前",
+      "image": "../images/finance/newslist3.png"
+    }
+  ]
+}

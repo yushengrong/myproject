@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贷款</title>
+    <!--头部样式-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+    <link rel="stylesheet" href="../css/finance/nav.css">
+    <!--私有样式-->
+    <link rel="stylesheet" href="../css/finance/loandetail.css">
+</head>
+<body>
+<!--header-->
+<div class="headerbox">
+    <ul class="eplist">
+        <li><a href="javascript:history.back(-1)" class="back">返回</a></li>
+        <li>贷款</li>
+        <li><a href="" class="fx"></a></li>
+    </ul>
+</div>
+<!--content-->
+<div class="loandata">
+    <p style="background: url('../images/finance/banklogo1.png') 0 0.08rem no-repeat">小米贷款</p>
+    <p>2000-2万元</p>
+    <p>额度范围（元）</p>
+    <div class="loanleft">
+        <p>0.01元</p>
+        <p>日利息</p>
+    </div>
+    <div class="loanright">
+        <p>1-12个月</p>
+        <p>贷款期限</p>
+    </div>
+</div>
+<!--跳转-->
+<a href="storeintro.html">
+<div class="linkbox">
+    <div class="linkmid">
+        <img src="../images/finance/banklogo1.png" alt="">
+        <span>桂平小米金融分公司</span>
+    </div>
+</div>
+</a>
+<!--贷款说明-->
+<div class="loancot">
+    <div class="msgtitle">
+        <p>贷款说明</p>
+    </div>
+    <div class="lcbox">
+        <p>申请条件</p>
+        <ul class="condition">
+            <!--ajax=>data.condition-->
+        </ul>
+    </div>
+    <div class="lcbox">
+        <p>所需资料</p>
+        <ul class="needdata">
+            <!--ajax=>data.need-->
+        </ul>
+    </div>
+</div>
+<!--联系ta-->
+<div class="bot">
+    <div class="botlist">
+        <img src="../images/finance/heart.png" alt="">
+        <p>关注</p>
+    </div>
+    <div class="botlist">
+        <img src="../images/finance/share.png" alt="">
+        <p>分享</p>
+    </div>
+    <button class="contact">
+        <span></span><p>联系TA</p>
+    </button>
+</div>
+<!--公共js-->
+<script src="../js/finance/angular.min.js"></script>
+<script src="../js/finance/jquery-1.11.0.min.js"></script>
+<script src="../js/finance/mobile.js"></script>
+<!--私有js-->
+<script src="../js/finance/loandetail.js"></script>
+</body>
+</html>

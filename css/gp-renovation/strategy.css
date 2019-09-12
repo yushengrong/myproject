@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.head{
+    width: 10rem;
+    height: 1.16rem;
+}
+.ullist{
+    width: 8.21rem;
+    height: 1.16rem;
+    margin: 0.29rem 0 auto 0.43rem;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ullist>li{
+    width: 1.73rem;
+    height: 0.88rem;
+    float: left;
+    font-size: 0.43rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: #333;
+}
+.current{
+    border-bottom: 0.05rem solid #FF6F43;
+}
+.current{
+    color: #FF6F43 !important;
+}
+.head>span{
+    width: 0.43rem;
+    height: 0.23rem;
+    margin-top: 0.49rem;
+    margin-left: 0.59rem;
+    float: left;
+    background-size:100% ;
+}
+.off{
+    background: url("../../images/gp-renovation/offjiantou.png");
+}
+.on{
+    background: url("../../images/gp-renovation/orgjiantou.png");
+}
+.underlist{
+    width: 9.14rem;
+    height: 1.81rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: none;
+    background: #fff !important;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0.12rem 0.16rem 0.16rem -0.16rem rgba(0,0,0,0.1);
+}
+.underlist li{
+    width: 2rem;
+    height: 0.93rem;
+    border: 0.03rem solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 0.11rem;
+    font-size: 0.37rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.93rem;
+    margin-top: 0.13rem;
+    float: left;
+    margin-right: 0.37rem;
+}
+.underlist li:nth-of-type(4){
+    margin-right: 0;
+}
+.listshow{
+    width: 9.14rem;
+    height: 3.14rem;
+    margin: 0.43rem auto 0 auto;
+    border-bottom: 0.03rem solid #F0F0F0;
+    box-sizing:border-box;
+    position: relative;
+}
+.listshow img{
+    width: 2.67rem;
+    height: 2.67rem;
+    float: left;
+    margin-left: 0.02rem;
+}
+.showtext{
+    width: 6.05rem;
+    height: 2.67rem;
+    float: right;
+}
+.showtext p:nth-of-type(1){
+     margin-top: 0.27rem;
+     font-weight: bold;
+     color: #333;
+     font-size: 0.43rem;
+ }
+.showtext p:nth-of-type(2){
+    margin-top: 0.27rem;
+    color: #999;
+    font-size: 0.32rem;
+}
+
+
+

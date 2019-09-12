@@ -1,0 +1,186 @@
+body{
+    background: #F8F8F8;
+}
+.loandata{
+    margin-top: 1.2rem;
+    width: 10rem;
+    height: 5.07rem;
+    background: #fff;
+    overflow: hidden;
+}
+.loandata>p:first-of-type{
+    font-size: 0.43rem;
+    margin-top: 0.43rem;
+    margin-left: 0.43rem;
+    text-indent: 0.56rem;
+}
+.loandata>p:nth-of-type(2){
+    text-align: center;
+    font-size: 0.64rem;
+    color: #FF6F43;
+    margin-top: 0.43rem;
+}
+.loandata>p:nth-of-type(3){
+    text-align: center;
+    color: #999;
+    font-size: 0.37rem;
+}
+.loanleft{
+    width: 5rem;
+    float: left;
+}
+.loanright{
+    width: 5rem;
+    float: right;
+    padding-right: 0.3rem;
+    box-sizing: border-box;
+}
+.loanright p{
+    text-align: center;
+}
+.loanleft p{
+    text-align: center;
+}
+.loanleft p:first-of-type{
+    margin-top: 0.43rem;
+    font-size: 0.64rem;
+    color: #FF6F43;
+}
+.loanleft p:last-of-type{
+    margin-top: 0.1rem;
+    font-size: 0.32rem;
+    color: #666;
+}
+.loanright p:first-of-type{
+    margin-top: 0.43rem;
+    font-size: 0.64rem;
+    color: #FF6F43;
+}
+.loanright p:last-of-type{
+    margin-top: 0.1rem;
+    font-size: 0.32rem;
+    color: #666;
+}
+.linkbox{
+    width: 10rem;
+    height: 1.2rem;
+    margin-top: 0.43rem;
+    background: #fff;
+}
+.linkmid{
+    width: 9.14rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    background: url("../../images/finance/jiantou.png") right no-repeat;
+    background-size:0.18rem 0.32rem ;
+}
+.linkmid>img{
+    margin-top: 0.4rem;
+    width: 0.43rem;
+    height: 0.43rem;
+    float: left;
+}
+.linkmid>span{
+    display: inline-block;
+    float: left;
+    font-size: 0.43rem;
+    color: #666;
+    margin-left: 0.16rem;
+    margin-top: 0.3rem;
+}
+.loancot{
+    width: 10rem;
+    height: 10.85rem;
+    margin: 0.43rem auto;
+    background: #fff;
+    overflow: hidden;
+}
+.msgtitle{
+    width: 9.14rem;
+    height: 0.43rem;
+    margin: 0.43rem auto 0 auto;
+    border-left: 0.08rem solid #FF6F43;
+    box-sizing: border-box;
+}
+.msgtitle>p{
+    text-indent: 0.21rem;
+    font-size: 0.43rem;
+    float: left;
+    margin-top: -0.06rem;
+    color: #333;
+    font-weight: bold;
+}
+.lcbox{
+    width: 9.14rem;
+    margin: 0 auto;
+}
+.condition li:last-of-type{
+    padding-bottom: 0.8rem;
+}
+.lcbox>p{
+    margin-top: 0.36rem;
+    font-size: 0.43rem;
+    color: #222;
+}
+.lcbox>ul>li{
+    font-size: 0.43rem;
+    color: #666;
+    margin-top: 0.2rem;
+}
+.bot{
+    width: 10rem;
+    height: 1.6rem;
+    background: #fff;
+    margin-top: 0.43rem;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+.botlist{
+    width: 1.6rem;
+    height: 1.17rem;
+    display: block;
+    margin-top: 0.33rem;
+}
+.botlist img{
+    width: 0.48rem;
+    height: 0.44rem;
+    display: block;
+    margin: 0 auto;
+}
+.botlist p{
+    text-align: center;
+    font-size: 0.32rem;
+    color: #333;
+    margin-top: 0.1rem;
+}
+.contact{
+    width:5.33rem;
+    height:1.17rem;
+    background:rgba(250,148,40,1);
+    opacity:1;
+    border-radius:0.11rem;
+    margin-top: 0.21rem;
+    border: none;
+}
+.contact p{
+    font-size: 0.43rem;
+    color: #fff;
+    line-height: 1.17rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.contact span{
+    width: 0.43rem;
+    height: 0.43rem;
+    display: inline-block;
+    background: url("../images/phone.png");
+    background-size: 100%;
+    float: left;
+    margin-top: 0.4rem;
+    margin-left: 1.55rem;
+}
+
+
+

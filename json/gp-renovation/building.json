@@ -1,0 +1,44 @@
+{
+  "buildinglist": [
+    {
+      "image": "../images/gp-renovation/building1.png",
+      "text": "楼兰瓷砖瓷片卫生间…",
+      "type": "地板"
+    },
+    {
+      "image": "../images/gp-renovation/building2.png",
+      "text": "楼兰瓷砖瓷片卫生间…",
+      "type": "瓷砖"
+    },
+    {
+      "image": "../images/gp-renovation/building3.png",
+      "text": "楼兰瓷砖瓷片卫生间…",
+      "type": "瓷砖"
+    },
+    {
+      "image": "../images/gp-renovation/building4.png",
+      "text": "楼兰瓷砖瓷片卫生间…",
+      "type": "瓷砖"
+    },
+    {
+      "image": "../images/gp-renovation/building5.png",
+      "text": "楼兰瓷砖瓷片卫生间…",
+      "type": "墙漆"
+    },
+    {
+      "image": "../images/gp-renovation/building6.png",
+      "text": "楼兰瓷砖瓷片卫生间…",
+      "type": "地板"
+    },
+    {
+      "image": "../images/gp-renovation/building7.png",
+      "text": "楼兰瓷砖瓷片卫生间…",
+      "type": "地板"
+    },
+    {
+      "image": "../images/gp-renovation/building8.png",
+      "text": "楼兰瓷砖瓷片卫生间…",
+      "type": "地板"
+    }
+  ]
+}

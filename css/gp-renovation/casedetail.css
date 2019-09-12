@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bg{
+    width:10rem;
+    height:16.43rem;
+    background:rgba(0,0,0,1);
+    position: relative;
+}
+.bg img{
+    width: 10rem;
+    height: 9.6rem;
+    margin-top: 1.6rem;
+}
+.bg p{
+    color: #fff;
+}
+.bg p:nth-of-type(1){
+    font-size: 0.43rem;
+    text-align: center;
+    margin-top: 0.7rem;
+}
+.bg p:nth-of-type(2){
+    position: absolute;
+    bottom: 0.43rem;
+    right: 0.43rem;
+    font-size: 0.48rem;
+}
+.bg p span:nth-of-type(2){
+    font-size: 0.43rem;
+}

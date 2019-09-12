@@ -1,0 +1,84 @@
+{
+  "insulist": [
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg1.png"
+    },
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg2.png"
+    },
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg3.png"
+    }
+    ],
+  "hidelist": [
+    {
+      "msg1": "儿童险",
+      "msg2": "旅游险",
+      "msg3": "车险"
+    }
+  ],
+
+  "userlist": [
+    {
+      "image": "../images/finance/user1.png",
+      "name": "王强",
+      "content": "这个思路可以。",
+      "time": "一个小时前",
+      "switch": "../images/finance/zanoff.png",
+      "class": "zanoff"
+    },
+    {
+      "image": "../images/finance/user2.png",
+      "name": "张晓梅",
+      "content": "我学习一下。",
+      "time": "一个小时前",
+      "switch": "../images/finance/zanoff.png",
+      "class": "zanoff"
+    },
+    {
+      "image": "../images/finance/user3.png",
+      "name": "李雷",
+      "content": "整体效果我觉得还行，其他的在看看",
+      "time": "一个小时前",
+      "switch": "../images/finance/zanoff.png",
+      "class": "zanoff"
+    },
+    {
+      "image": "../images/finance/user4.png",
+      "name": "李克群",
+      "content": "敬畏、尊重、自律。",
+      "time": "一个小时前",
+      "switch": "../images/finance/zanon.png",
+      "class": "zanoff"
+    },
+    {
+      "image": "../images/finance/user5.png",
+      "name": "张大申",
+      "content": "这个思路可以。",
+      "time": "一个小时前",
+      "switch": "../images/finance/zanoff.png",
+      "class": "zanoff"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+body{
+    background: #F8F8F8;
+}
+.serchbox{
+    width: 10rem;
+    height: 1.28rem;
+    margin-top: 1.2rem;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.serchbox input{
+    width: 9.36rem;
+    height: 0.8rem;
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.1);
+    padding-left: 0.91rem;
+    margin: 0.24rem auto;
+    display: block;
+    line-height: 0.8rem;
+    box-sizing: border-box;
+    color: #999;
+    font-size: 0.37rem;
+}
+.serchbox>img{
+    width: 0.37rem;
+    height: 0.37rem;
+    position: absolute;
+    top: 0.47rem;
+    left: 0.69rem;
+}
+.newscot{
+    width: 10rem;
+    background: #fff;
+}
+.newsbox{
+    width: 9.36rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.newslist{
+    width: 9.14rem;
+    height: 2.54rem;
+    margin: 0.4rem auto 0 auto;
+    border-bottom: 0.01rem solid #eee;
+}
+
+.nlleft{
+    width: 5.84rem;
+    float: left;
+}
+.nlleft>p:first-of-type{
+    font-size: 0.37rem;
+    color: #333;
+}
+.nlleft>p:last-of-type{
+    margin-top: 0.4rem;
+    font-size: 0.32rem;
+    color: #999;
+}
+.nlleft>p:last-of-type span{
+    padding: 0 0.14rem;
+}
+.nlright{
+    float: right;
+}
+.nlright>img{
+    width: 2.92rem;
+    height: 2.09rem;
+}

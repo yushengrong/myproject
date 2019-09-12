@@ -1,0 +1,47 @@
+body{
+    background: #F8F8F8;
+}
+.msglist{
+    width: 10rem;
+    background: #fff;
+    overflow: hidden;
+}
+.msgmid{
+    width: 9.14rem;
+    margin: 0 auto;
+}
+.msgmid>p{
+    font-size: 0.43rem;
+    color: #333;
+}
+.msg li{
+    padding-top: 0.43rem;
+    margin-top: 0.43rem;
+}
+.msg li:first-of-type {
+    margin-top: 1.63rem;
+}
+.content>span{
+    float: left;
+    width: 0.53rem;
+    height: 0.53rem;
+    background: #FF6F43;
+    font-size: 0.37rem;
+    text-align: center;
+    line-height: 0.53rem;
+    display: inline-block;
+    color: #fff;
+}
+.content{
+    margin-top: 0.27rem;
+}
+.content>p{
+    margin-left: 0.13rem;
+    font-size: 0.37rem;
+    width: 8.48rem;
+    float: left;
+    line-height: 0.64rem;
+    color: #666;
+    padding-bottom: 0.5rem;
+}
+

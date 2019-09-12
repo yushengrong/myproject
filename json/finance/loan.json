@@ -1,0 +1,106 @@
+{
+  "purpose": [
+    {
+      "list": "学习"
+    },
+    {
+      "list": "学习"
+    },
+    {
+      "list": "学习"
+    }
+  ],
+  "money": [
+    {
+      "list": "0-3000"
+    },
+    {
+      "list": "0-3000"
+    },
+    {
+      "list": "0-3000"
+    }
+  ],
+  "term": [
+
+  ],
+  "loanlist": [
+    {
+      "image": "../images/finance/banklogo1.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看",
+      "link": "loandtljump()"
+    },
+    {
+      "image": "../images/finance/banklogo2.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看",
+      "link": "loandtljump()"
+    },
+    {
+      "image": "../images/finance/banklogo3.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看",
+      "link": "loandtljump()"
+    },
+    {
+      "image": "../images/finance/banklogo4.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看",
+      "link": "loandtljump()"
+    },
+    {
+      "image": "../images/finance/banklogo5.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看",
+      "link": "loandtljump()"
+    },
+    {
+      "image": "../images/finance/banklogo6.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看",
+      "link": "loandtljump()"
+    },
+    {
+      "image": "../images/finance/banklogo3.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看",
+      "link": "loandtljump()"
+    }
+  ]
+}

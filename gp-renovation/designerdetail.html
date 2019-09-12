@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计师详情</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="../css/gp-renovation/designerdetail.css">
+    <style>
+        .headerbox{
+            width: 10rem;
+            height: 1.2rem;
+            background: #FA9428;
+        }
+        .eplist{
+            width: 9.2rem;
+            height: 1.2rem;
+            margin: 0 auto;
+        }
+        .eplist li{
+            float: left;
+            height: 1.2rem;
+            line-height: 1.2rem;
+        }
+        .back{
+            width: 1.32rem;
+            font-size: 0.48rem;
+            color: #ffffff;
+            border: none;
+            background: #ffffff;
+            outline: none;
+            float: left;
+            padding-left: 0.4rem;
+            background: url("../images/gp-renovation/fh.png")center left no-repeat;
+            background-size: 0.267rem 0.467rem;
+            text-decoration: none;
+        }
+        .fx{
+            display: block;
+            width: 0.48rem;
+            height: 0.08rem;
+            background: url("../images/gp-renovation/fx.png") 50% no-repeat;
+            background-size: 0.48rem 0.08rem;
+            margin: 0.56rem 0 0 1.52rem;
+        }
+        .eplist li:nth-child(1){
+            width: 2.2rem;
+        }
+        .eplist li:nth-child(2){
+            width: 5rem;
+            text-align: center;
+            font-size: 0.48rem;
+            color: #ffffff;
+        }
+        .eplist li:nth-child(3){
+            width: 2rem;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+<div class="headerbox">
+    <ul class="eplist">
+        <li><a href="javascript:history.back(-1)" class="back">返回</a></li>
+        <li>设计师详情</li>
+        <li><a href="" class="fx"></a></li>
+    </ul>
+</div>
+<div class="message">
+    <div class="dsnphoto">
+        <img src="../images/gp-renovation/detaildsn.png" alt="">
+    </div>
+    <p>李娟</p>
+    <p>就读于北海艺术设计学院环境艺术设计专业，主修室内设计专业， 2010年至2012年于北京清华美术培训中心学习及参与工作。2013年至2014年 曾与合伙人成立工作室。2014年九月回到南宁工作至今。七年来始终担任着 有装修需求的客户，打造一个更适合居住的环境。</p>
+
+    <ul class="messagebot">
+        <li>
+            <p>7年</p>
+            <p>工作经验</p>
+        </li>
+        <li>
+            <p>12</p>
+            <p>效果图</p>
+        </li>
+        <li>
+            <p>12</p>
+            <p>装修案例</p>
+        </li>
+    </ul>
+</div>
+<div class="case">
+    <p class="casetitle">近期案例</p>
+    <div class="caselist" >
+
+    </div>
+</div>
+<!--定位的bot-->
+<div class="bot">
+    <div class="botlist">
+        <img src="../images/gp-renovation/heart.png" alt="">
+        <p>关注</p>
+    </div>
+    <div class="botlist">
+        <img src="../images/gp-renovation/share.png" alt="">
+        <p>分享</p>
+    </div>
+    <button class="contact" onclick=contact()>
+        <span></span><p>联系TA</p>
+    </button>
+</div>
+<script src="../js/gp-renovation/angular.min.js"></script>
+<script src="../js/gp-renovation/jquery-1.11.0.min.js"></script>
+<script src="../js/gp-renovation/mobile.js"></script>
+<script src="../js/gp-renovation/tiaozhuan.js"></script>
+<script src="../js/gp-renovation/designerdetail.js"></script>
+</body>
+</html>

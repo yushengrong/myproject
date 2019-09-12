@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>金融</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+
+    <!--头部样式-->
+    <link rel="stylesheet" href="../css/finance/nav.css">
+    <!--私有样式-->
+    <link rel="stylesheet" href="../css/finance/swiper.css">
+    <link rel="stylesheet" href="../css/finance/index.css">
+</head>
+<body>
+<!--头部-->
+<div class="headerbox">
+    <ul class="eplist">
+        <li><a href="javascript:history.back(-1)" class="back">返回</a></li>
+        <li>金融</li>
+        <li><a href="" class="fx"></a></li>
+    </ul>
+</div>
+<!--banner-->
+<div class="banner" style="background: #fff url('../images/finance/bannerfinance.png') top no-repeat">
+    <div class="input">
+        <input type="text" value="请输入关键字">
+        <img src="../images/finance/sousuo.png" alt="">
+    </div>
+</div>
+<div class="sel">
+    <ul class="sellist"></ul>
+</div>
+<!--银行列表轮播-->
+<div class="bank">
+    <ul class="tab_menu banktitle">
+        <li class="current">银行</li>
+        <li>信用卡</li>
+    </ul>
+    <ul class="tab_box bankbox">
+        <li class="block">
+            <div class="swiper-container cplistbox">
+                <ul class="swiper-wrapper cplistcot">
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <li class="swiper-slide"></li>
+                    <!--//给n个盒子占好位置-->
+                    <!--storange.djgp-->
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="swiper-container cplistbox">
+                <ul class="swiper-wrapper cplistcot2">
+                    <li class="swiper-slide card"></li>
+                    <li class="swiper-slide card"></li>
+                    <li class="swiper-slide card"></li>
+                    <li class="swiper-slide card"></li>
+                    <li class="swiper-slide card"></li>
+                    <li class="swiper-slide card"></li>
+                    <li class="swiper-slide card"></li>
+                    <li class="swiper-slide card"></li>
+                    <li class="swiper-slide card"></li>
+                    <!--//给n个盒子占好位置-->
+                    <!--storange.djgp-->
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--理财-->
+<div class="conduct">
+<div class="title" onclick="projump()">
+    <p class="titleft">理财</p>
+    <p class="titright"><i>更多</i><span><img src="../images/finance/jiantou.png" alt=""></span></p>
+</div>
+    <div class="conlists">
+        <!--conduct.djgp-->
+    </div>
+</div>
+<!--保险-->
+<div class="insurance">
+    <div class="title" onclick="inrancejump()">
+        <p class="titleft">保险</p>
+        <p class="titright"><i>更多</i><span><img src="../images/finance/jiantou.png" alt=""></span></p>
+    </div>
+    <div class="insucot">
+        <!--insulist.djgp-->
+    </div>
+</div>
+<!--贷款-->
+<div class="loan">
+    <div class="title" onclick="loanjump()">
+        <p class="titleft">贷款</p>
+        <p class="titright"><i>更多</i><span><img src="../images/finance/jiantou.png" alt=""></span></p>
+    </div>
+ <!--loanlist.djgp-->
+</div>
+<!--金融咨询-->
+<div class="message">
+    <div class="title" onclick="inforjump()">
+        <p class="titleft">金融咨询</p>
+        <p class="titright"><i>更多</i><span><img src="../images/finance/jiantou.png" alt=""></span></p>
+    </div>
+<div class="msglists"></div>
+    <!--msglist.djgp-->
+    <div class="more" onclick="inforjump()">
+        <p><span>更多内容</span><img src="../images/finance/orgmore.png" alt=""></p>
+    </div>
+</div>
+
+</body>
+<script src="../js/finance/angular.min.js"></script>
+<script src="../js/finance/jquery-1.11.0.min.js"></script>
+<script src="../js/finance/mobile.js"></script>
+<script src="../js/finance/swiper.js"></script>
+<script src="../js/finance/swiper-use.js"></script>
+<script src="../js/finance/index.js"></script>
+<script src="../js/finance/jump.js"></script>
+</html>

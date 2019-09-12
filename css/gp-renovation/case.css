@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.headerbox{
+    width: 10rem;
+    height: 1.2rem;
+    background: #FA9428;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.eplist{
+    width: 9.2rem;
+    height: 1.2rem;
+    margin: 0 auto;
+}
+.eplist>li{
+    float: left;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+.back{
+    width: 1.32rem;
+    font-size: 0.48rem;
+    color: #ffffff;
+    border: none;
+    background: #ffffff;
+    outline: none;
+    float: left;
+    padding-left: 0.4rem;
+    background: url("../../images/gp-renovation/fh.png")center left no-repeat;
+    background-size: 0.267rem 0.467rem;
+    text-decoration: none;
+}
+.fx{
+    display: block;
+    width: 0.48rem;
+    height: 0.08rem;
+    background: url("../../images/gp-renovation/fx.png") 50% no-repeat;
+    background-size: 0.48rem 0.08rem;
+    margin: 0.56rem 0 0 1.52rem;
+}
+.eplist>li:nth-child(1){
+    width: 2.2rem;
+}
+.eplist>li:nth-child(2){
+    width: 5rem;
+    text-align: center;
+    font-size: 0.48rem;
+    color: #ffffff;
+}
+.eplist>li:nth-child(3){
+    width: 2rem;
+    text-align: right;
+}
+.press_header1{
+    width: 10rem;
+    height: 1.16rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    background: #ffffff;
+    position: relative;
+}
+.press_header2{
+    width: 9.2rem;
+    height: auto;
+    margin: 0 auto;
+}
+.press_header2:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.press_header2 li{
+    float: left;
+    width: 1.71rem;
+    height: 1.16rem;
+    margin-right: 0.43rem;
+}
+.press_header2>li a{
+    display: block;
+    width: 1.71rem;
+    height: 1.15rem;
+    line-height: 1.16rem;
+    text-align: center;
+    border-bottom: 0.05rem solid #ffffff;
+    font-size: 0.43rem;
+    color: #333333;
+    letter-spacing: -0.01rem;
+    box-sizing: border-box;
+}
+.press_header3{
+    width: 0.43rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.48rem;
+    right: 0.48rem;
+    z-index: 88;
+}
+.press_header3 img{
+    float: left;
+    width: 0.43rem;
+    height: 0.23rem;
+}
+.headlist{
+    width: 4.8rem;
+    overflow: hidden;
+}
+.headlist>li{
+    float: left;
+    width: 2.4rem;
+    display: block;
+    border: 0.03rem solid #fff;
+    box-sizing: border-box;
+    height: 0.8rem;
+    margin-top: 0.2rem;
+    line-height: 0.8rem;
+}
+.headlist>li:first-of-type{
+    border-bottom-left-radius: 0.16rem;
+    border-top-left-radius: 0.16rem;
+    border-right: none;
+}
+.headlist>li:last-of-type{
+    border-bottom-right-radius: 0.16rem;
+    border-top-right-radius: 0.16rem;
+    border-left: none;
+}
+.headlist>.now{
+    color: #FF6F43;
+    background: #fff;
+}
+.input{
+    width: 9.36rem;
+    height: 1.2rem;
+    position: relative;
+    margin: 1.44rem auto 0 auto;
+}
+.input input{
+    width: 9.36rem;
+    height: 0.8rem;
+    background: rgba(0,0,0,0.05);
+    margin-top: 0.24rem;
+    border: none;
+    outline: none;
+    font-size: 0.37rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.input input::placeholder{
+    padding-left: 0.91rem;
+    color: #999;
+}
+.input img{
+    width: 0.37rem;
+    height: 0.37rem;
+    position: absolute;
+    top: 0.45rem;
+    left: 0.37rem;
+}
+.hidenav{
+    display: block;
+}
+.menu{
+    width: 10rem;
+    height: 1.07rem;
+    border-bottom: 0.03rem solid rgba(240,240,240,1);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    font-size: 0.43rem;
+    color: #666;
+    line-height: 1.07rem;
+    float: left;
+    padding: 0 0.43rem;
+}
+.menu li span{
+    margin-left: 0.1rem;
+    display: inline-block;
+}
+.menu li span img{
+    width: 0.27rem;
+    height: 0.15rem;
+    float: right;
+    margin-bottom: 0.06rem;
+}
+.houselist{
+    width: 10rem;
+    overflow: hidden;
+}
+.house{
+    width: 4.37rem;
+    float: left;
+}
+.house>img{
+    width: 4.37rem;
+    height: 3.2rem;
+}
+.house p{
+    font-size: 0.43rem;
+}
+.house p:nth-of-type(2){
+    margin: 0.27rem 0;
+    overflow: hidden;
+}
+.house p:nth-of-type(2)>span:first-of-type>img{
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left;
+}
+.house p:nth-of-type(2)>span:first-of-type>i{
+    float: left;
+    font-style: normal;
+    font-size: 0.32rem;
+    color: #333;
+    padding-left: 0.11rem;
+    margin-top: 0.16rem;
+}
+.house p:nth-of-type(2)>span:first-of-type{
+    display: inline-block;
+    float: left;
+}
+.house p:nth-of-type(2)>span:last-of-type{
+    float: right;
+}
+.house p:nth-of-type(2)>span:last-of-type>img{
+    margin-top: 0.24rem;
+    float: left;
+    width: 0.37rem;
+    height: 0.27rem;
+    display: block;
+}
+.house p:nth-of-type(3)>span{
+    display: inline-block;
+    color: #999;
+    font-size: 0.32rem;
+    float: left;
+    padding-right: 0.13rem;
+    margin-top: 0.12rem;
+}
+.house p:nth-of-type(2)>span:last-of-type i{
+    float: left;
+    font-style: normal;
+    font-size: 0.32rem;
+    color: #999;
+    padding-left: 0.11rem;
+    margin-top: 0.16rem;
+}
+.house p a{
+    color: #333;
+}
+.house:nth-of-type(odd){
+    margin-left: 0.43rem;
+    margin-top: 0.43rem;
+}
+.house:nth-of-type(even){
+    margin-left: 0.53rem;
+    margin-top: 0.43rem;
+}
+.onecase{
+    width: 9.15rem;
+    margin: 0.4rem auto;
+}
+.onecase>img{
+    width: 9.15rem;
+    height: 4rem;
+}
+.onecase>p:first-of-type{
+    font-size: 0.43rem;
+    color: #333;
+    margin-top: 0.1rem;
+}
+.onecase>p:first-of-type>span{
+    font-size: 0.37rem;
+    color: #FF6F43;
+    float: right;
+}
+.onecase>p:last-of-type{
+    margin-top: 0.1rem;
+    font-size: 0.37rem;
+    color: #666;
+}
+.onecase>p:last-of-type>span{
+    padding: 0 0.1rem;
+}

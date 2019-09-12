@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.headerbox{
+    width: 10rem;
+    height: 1.2rem;
+    background: #FA9428;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.eplist{
+    width: 9.2rem;
+    height: 1.2rem;
+    margin: 0 auto;
+}
+.eplist li{
+    float: left;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+.back{
+    width: 1.32rem;
+    font-size: 0.48rem;
+    color: #ffffff;
+    border: none;
+    background: #ffffff;
+    outline: none;
+    float: left;
+    padding-left: 0.4rem;
+    background: url("../../images/finance/fh.png")center left no-repeat;
+    background-size: 0.267rem 0.467rem;
+    text-decoration: none;
+}
+.fx{
+    display: block;
+    width: 0.48rem;
+    height: 0.08rem;
+    background: url("../../images/finance/fx.png") 50% no-repeat;
+    background-size: 0.48rem 0.08rem;
+    margin: 0.56rem 0 0 1.52rem;
+}
+.eplist li:nth-child(1){
+    width: 2.2rem;
+}
+.eplist li:nth-child(2){
+    width: 5rem;
+    text-align: center;
+    font-size: 0.48rem;
+    color: #ffffff;
+}
+.eplist li:nth-child(3){
+    width: 2rem;
+    text-align: right;
+}
+.press_header1{
+    width: 10rem;
+    height: 1.16rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    background: #ffffff;
+    position: relative;
+}
+.press_header2{
+    width: 9.2rem;
+    height: auto;
+    margin: 0 auto;
+}
+.press_header2:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.press_header2 li{
+    float: left;
+    width: 1.71rem;
+    height: 1.16rem;
+    margin-right: 0.43rem;
+}
+.press_header2 li a{
+    display: block;
+    width: 1.71rem;
+    height: 1.15rem;
+    line-height: 1.16rem;
+    text-align: center;
+    border-bottom: 0.05rem solid #ffffff;
+    font-size: 0.43rem;
+    color: #333333;
+    letter-spacing: -0.01rem;
+    box-sizing: border-box;
+}
+.press_header3{
+    width: 0.43rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.48rem;
+    right: 0.48rem;
+    z-index: 88;
+}
+.press_header3 img{
+    float: left;
+    width: 0.43rem;
+    height: 0.23rem;
+}

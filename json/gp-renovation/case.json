@@ -1,0 +1,75 @@
+{
+  "house": [
+    {
+      "image": "../images/gp-renovation/case0.png",
+      "text": "中海国际社区3室2厅",
+      "master": "../images/gp-renovation/member1.png",
+      "name": "王伟",
+      "logo": "../images/gp-renovation/eyelogo.png",
+      "times": "231"
+    },
+    {
+      "image": "../images/gp-renovation/case1.png",
+      "text": "盛天小世界3室2厅2",
+      "master": "../images/gp-renovation/member2.png",
+      "name": "周婷婷",
+      "logo": "../images/gp-renovation/eyelogo.png",
+      "times": "231"
+    },
+    {
+      "image": "../images/gp-renovation/case2.png",
+      "text": "嘉和城3室2厅2卫",
+      "master": "../images/gp-renovation/member3.png",
+      "name": "王兰",
+      "logo": "../images/gp-renovation/eyelogo.png",
+      "times": "231"
+    },
+    {
+      "image": "../images/gp-renovation/case3.png",
+      "text": "盛天青山郡3室2厅",
+      "master": "../images/gp-renovation/member4.png",
+      "name": "张建",
+      "logo": "../images/gp-renovation/eyelogo.png",
+      "times": "231"
+    },
+    {
+      "image": "../images/gp-renovation/case4.png",
+      "text": "嘉印象3室2厅1卫",
+      "master": "../images/gp-renovation/member5.png",
+      "name": "张丽",
+      "logo": "../images/gp-renovation/eyelogo.png",
+      "times": "231"
+    },
+    {
+      "image": "../images/gp-renovation/case5.png",
+      "text": "48平米中式后花园",
+      "master": "../images/gp-renovation/member6.png",
+      "name": "林可欣",
+      "logo": "../images/gp-renovation/eyelogo.png",
+      "times": "231"
+    }
+  ],
+  "houselist": [
+    {
+      "image": "../images/gp-renovation/housecase1.png",
+      "type": "地中海风格豪宅设计",
+      "price": "10万",
+      "size": "145m²",
+      "textsize": "3室2厅"
+    },
+    {
+      "image": "../images/gp-renovation/housecase2.png",
+      "type": "地中海风格豪宅设计",
+      "price": "10万",
+      "size": "145m²",
+      "textsize": "3室2厅"
+    },
+    {
+      "image": "../images/gp-renovation/housecase3.png",
+      "type": "地中海风格豪宅设计",
+      "price": "10万",
+      "size": "145m²",
+      "textsize": "3室2厅"
+    }
+  ]
+}

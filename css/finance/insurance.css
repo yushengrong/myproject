@@ -1,0 +1,341 @@
+body{
+    background: #F8F8F8;
+}
+.nav{
+    width: 10rem;
+    height: 1.16rem;
+    margin-top: 1.2rem;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+.hidebox{
+    width: 10rem;
+    height: 19rem;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;
+    /*display: none;*/
+}
+.hidecot{
+    width: 10rem;
+    height: 1.8rem;
+    /*border-top: 0.01rem solid #eee;*/
+    background: #fff;
+}
+.hidelist{
+    width: 2rem;
+    height: 0.93rem;
+    border: 0.03rem solid #EDEDED;
+    border-radius: 0.11rem;
+    float: left;
+    margin-top: 0.43rem;
+    margin-left: 0.37rem;
+    font-size: 0.37rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.93rem;
+}
+.hidelist:first-of-type{
+    margin-left: 0.45rem;
+}
+.tab_menu{
+    width: 7.6rem;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.43rem;
+}
+.tab_menu>li{
+    width: 1.71rem;
+    height: 1.16rem;
+    font-size: 0.43rem;
+    text-align: center;
+    line-height: 1.16rem;
+    box-sizing: border-box;
+}
+.tab_menu>.now{
+    color: #FF6F43;
+    border-bottom: 0.05rem solid #FF6F43;
+}
+.tab_box>li{
+    display: none;
+}
+.tab_box>.current{
+    display: block;
+}
+.nav>span{
+    width: 0.43rem;
+    height: 0.23rem;
+    display: inline-block;
+    float: right;
+    margin-right: 0.43rem;
+    margin-top: 0.48rem;
+    background-size: 100%;
+    transform: rotate(180deg);
+}
+.nav>.off{
+    background: url("../../images/finance/offjiantou.png");
+
+}
+.nav>.on{
+    background: url("../../images/finance/orgjiantou.png");
+}
+.insucot{
+    width: 10rem;
+    margin: 0 auto;
+    background: #fff;
+}
+.insulist{
+    width: 9.14rem;
+    height: 2.56rem;
+    border-bottom: 0.03rem solid #F4F4F4;
+    margin: 0.53rem auto 0 auto;
+}
+.insulist:first-of-type{
+    padding-top: 0.53rem;
+}
+.inlileft{
+    width: 2.67rem;
+    height: 2.13rem;
+    border-radius:0.16rem 0.16rem 0rem 0rem;
+    float: left;
+    background-size: 2.67rem 2.13rem;
+    position: relative;
+}
+.inlileft>img{
+    width: 2.67rem;
+    height: 2.13rem;
+    position: absolute;
+    /*z-index: -1;*/
+    display: block;
+}
+
+.insulist:nth-of-type(n) .imgcot{
+    background:rgba(255,167,81,1);
+}
+.insulist:nth-of-type(2n) .imgcot{
+    background:#FF6F43;
+}
+.insulist:nth-of-type(3n) .imgcot{
+    background:#1CA139;
+}
+.imgcot{
+    width: 2.67rem;
+    height: 0.53rem;
+    border-radius:0.16rem 0.16rem 0rem 0rem;
+    font-size: 0.37rem;
+    line-height: 0.53rem;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.inlimid{
+    height: 2.13rem;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0.37rem;
+}
+
+.inlimid p:nth-of-type(1){
+    color: #333;
+    font-size: 0.43rem;
+    margin-top: 0.11rem;
+}
+.inlimid p:nth-of-type(2){
+    color: #999;
+    font-size: 0.37rem;
+    margin-top: 0.27rem;
+}
+.inlimid p:nth-of-type(3){
+    font-size: 0.48rem;
+    color: #FF6F43;
+    position: absolute;
+    bottom: 0;
+}
+.inlimid p:nth-of-type(3)>span{
+    font-size: 0.32rem;
+}
+.inlibtn{
+    width:1.68rem;
+    height:0.69rem;
+    background:rgba(255,255,255,1);
+    border:0.03rem solid rgba(255,111,67,1);
+    opacity:1;
+    border-radius:27rem;
+    float: right;
+    margin-top: 0.72rem;
+    outline: none;
+}
+.inlibtn>a{
+    color: #FF6F43;
+}
+.user{
+    width: 10rem;
+    height: 17.12rem;
+    margin-top: 0.43rem;
+    background: #fff;
+    overflow: hidden;
+}
+.usertitle{
+    width: 9.14rem;
+    height: 0.48rem;
+    border-left: 0.08rem solid #FF6F43;
+    margin: 0.43rem  auto 0 auto;
+}
+.usertitle>p{
+    font-size: 0.43rem;
+    padding-left: 0.2rem;
+    line-height: 0.48rem;
+    font-weight: bold;
+    color: #333;
+}
+.score{
+    width: 9.14rem;
+    height: 2.6rem;
+    margin: 0.4rem auto 0 auto;
+}
+.scoreleft{
+    width: 3.2rem;
+    height: 2.6rem;
+    float: left;
+    border-right: 0.03rem solid #D9D9D9;
+}
+.scoreleft p{
+    font-size: 0.37rem;
+    text-align: center;
+}
+.scoreleft p:nth-of-type(1){
+    color: #333;
+    margin-top: 0.33rem;
+}
+.scoreleft p:nth-of-type(2){
+    color: #FA9428;
+    margin-top: 0.17rem;
+}
+.scoreleft p:nth-of-type(3){
+    color: #999;
+    margin-top: 0.09rem;
+    font-size: 0.32rem;
+}
+.scoreright{
+    width: 5.5rem;
+    height: 2.6rem;
+    float: right;
+}
+.scoreright li{
+    width: 5.5rem;
+    height: 0.4rem;
+    margin-bottom: 0.14rem;
+}
+.scoreright li span{
+    font-size: 0.32rem;
+    float: left;
+}
+.pross{
+    width: 4.27rem;
+    height: 0.16rem;
+    background: #EEEEEE;
+    float: left;
+    margin-top: 0.12rem;
+    margin-left: 0.19rem;
+    margin-right: 0.19rem;
+    border-radius: 3rem;
+}
+.prosscolor{
+    width: 2.4rem;
+    height: 0.16rem;
+    background: #F79810;
+    border-radius: 3em;
+}
+.userlist{
+    width: 9.14rem;
+    height: 2.2rem;
+    margin: 0.37rem auto 0 auto;
+    border-bottom: 0.03rem solid rgba(245,245,245,1);
+}
+.userlist>img{
+    width: 0.8rem;
+    height: 0.8rem;
+    float: left;
+}
+.usermessage{
+    width: 7rem;
+    height: 2rem;
+    float: left;
+    margin-left: 0.2rem;
+}
+.usermessage p:nth-of-type(1){
+    font-size: 0.32rem;
+    color: #333;
+    margin-top: 0.05rem;
+}
+.usermessage p:nth-of-type(2){
+    color: #333;
+    font-size: 0.27rem;
+    margin-top: 0.27rem;
+}
+.userlist p:nth-of-type(3){
+    font-size: 0.32rem;
+    color: #999;
+    margin-top: 0.37rem;
+}
+/*.zanoff img,.zanon img{*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*display: block;*/
+/*}*/
+.userlist>span{
+    width: 0.4rem;
+    height: 0.4rem;
+    float: right;
+}
+/*.userlist>span>img{*/
+/*width: 0.4rem;*/
+/*height: 0.4rem;*/
+/*display: block;*/
+/*}*/
+.zanoff{
+    background: url("../../images/finance/zanoff.png") 50% 50% no-repeat;
+    background-size: 100%;
+}
+.zanon{
+    background: url("../../images/finance/zanon.png") 50% 50% no-repeat;
+    background-size:100% ;
+}
+.bot{
+    width: 10rem;
+    height: 1.6rem;
+    background:rgba(245,245,247,1);
+}
+.userlist:nth-last-child(n){
+    border: none;
+}
+.botleft{
+    width: 4.47rem;
+    height: 1.17rem;
+    float: left;
+    background:rgba(255,175,54,0.89);
+    line-height: 1.17rem;
+    text-align: center;
+    font-size: 0.43rem;
+    margin-left: 0.43rem;
+    margin-top: 0.32rem;
+    color: #fff;
+}
+.botright{
+    width: 4.47rem;
+    height: 1.17rem;
+    float: right;
+    background:#FF705D;
+    line-height: 1.17rem;
+    text-align: center;
+    font-size: 0.43rem;
+    margin-right: 0.43rem;
+    margin-top: 0.32rem;
+    color: #fff;
+}

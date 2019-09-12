@@ -1,0 +1,110 @@
+body{
+    background: #F8F8F8;
+}
+.question_title{
+    width: 10rem;
+    margin-top: 1.2rem;
+    background: #fff;
+}
+.question_title>h2{
+    width: 9.14rem;
+    margin: 0 auto;
+    font-size: 0.64rem;
+    color: #333;
+    padding: 0.32rem 0;
+    font-weight: bold;
+    line-height: 0.88rem;
+}
+.answers{
+    width: 10rem;
+    background: #fff;
+    margin-top: 0.43rem;
+    overflow: hidden;
+}
+.msgtitle{
+    width: 9.14rem;
+    height: 0.54rem;
+    margin: 0.43rem auto 0 auto;
+    border-left: 0.08rem solid #FF6F43;
+    /*box-sizing: border-box;*/
+    background: url("../../images/gp-renovation/jiantou.png") right no-repeat;
+}
+.msgtitle>p{
+    text-indent: 0.21rem;
+    font-size: 0.43rem;
+    float: left;
+    margin-top: -0.06rem;
+    color: #666;
+    font-weight: bold;
+}
+.reply li{
+    width: 9.14rem;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 0.03rem solid #f5f5f5;
+}
+.reply li>img{
+    margin-top: 0.5rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    float: left;
+}
+.reright{
+    width: 8.13rem;
+    float: right;
+}
+.reright p:first-of-type i{
+    font-style: normal;
+    font-size: 0.32rem;
+    color: #333;
+}
+.reright p:first-of-type span{
+    float: right;
+}
+.reright p:first-of-type span img{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.reright p:nth-of-type(2){
+    font-size: 0.37rem;
+    color: #333;
+    line-height: 0.54rem;
+}
+.reright p:nth-of-type(3){
+    margin-top: 0.2rem;
+    padding-bottom: 0.27rem;
+    font-size: 0.32rem;
+    color: #999999;
+}
+.botinput{
+    width: 10rem;
+    height: 1.33em;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+}
+.botinput>input{
+    width: 6.93rem;
+    height: 0.96rem;
+    float: left;
+    outline: none;
+    border-radius: 2.64rem;
+    border: 0.03rem solid #EDEDED;
+    box-sizing: border-box;
+    margin: 0.19rem 0 0.19rem 0.43rem;
+    -webkit-background-size: 0.43rem 0.43rem !important;
+    background-size: 0.43rem 0.43rem !important;
+    padding-left: 1.12rem;
+    color: #666;
+}
+.botlist{
+    overflow: hidden;
+}
+.botlist li{
+    margin-left: 0.56rem;
+    float: left;
+}
+.botlist li img{
+    width: 0.48rem;
+    height: 0.48rem;
+}

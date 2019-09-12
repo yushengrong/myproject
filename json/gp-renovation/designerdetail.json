@@ -1,0 +1,20 @@
+{
+  "casedata": [
+    {
+      "image": "../images/gp-renovation/case0.png",
+      "name": "中海国际社区3室2厅"
+    },
+    {
+      "image": "../images/gp-renovation/case1.png",
+      "name": "盛天小世界3室2厅2"
+    },
+    {
+      "image": "../images/gp-renovation/case2.png",
+      "name": "嘉和城3室2厅2卫"
+    },
+    {
+      "image": "../images/gp-renovation/case3.png",
+      "name": "盛天青山郡3室2厅"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "sellist": [
+    {
+      "link": "bankjump()",
+      "image": "../images/finance/slimg1.png",
+      "content": "银行"
+    },
+    {
+      "link": "bankcardjump()",
+      "image": "../images/finance/slimg2.png",
+      "content": "信用卡"
+    },
+    {
+      "link": "projump()",
+      "image": "../images/finance/slimg3.png",
+      "content": "理财"
+    },
+    {
+      "link": "inrancejump()",
+      "image": "../images/finance/slimg4.png",
+      "content": "保险"
+    },
+    {
+      "link": "loanjump()",
+      "image": "../images/finance/slimg5.png",
+      "content": "贷款"
+    },
+    {
+      "link": "inforjump()",
+      "image": "../images/finance/slimg6.png",
+      "content": "金融"
+    },
+    {
+      "link": "",
+      "image": "none",
+      "content": ""
+    },
+    {
+      "link": "",
+      "image": "none",
+      "content": ""
+    }
+  ],
+  "storage": [
+    {
+      "name": "中国华夏银行",
+      "pencent": "4.0%",
+      "content": "存储存款利率"
+    },
+    {
+      "name": "中国北京银行",
+      "pencent": "4.0%",
+      "content": "存储存款利率"
+    },
+    {
+      "name": "中国招商银行",
+      "pencent": "4.0%",
+      "content": "存储存款利率"
+    },
+    {
+      "name": "桂林银行",
+      "pencent": "4.0%",
+      "content": "存储存款利率"
+    },
+    {
+      "name": "民生银行",
+      "pencent": "4.0%",
+      "content": "存储存款利率"
+    },
+    {
+      "name": "中国长城信用社",
+      "pencent": "4.0%",
+      "content": "存储存款利率"
+    },
+    {
+      "name": "杭州银行",
+      "pencent": "4.2%",
+      "content": "存储存款利率"
+    },
+    {
+      "name": "平安银行",
+      "pencent": "4.0%",
+      "content": "存储存款利率"
+    },
+    {
+      "name": "平安银行",
+      "pencent": "4.0%",
+      "content": "存储存款利率"
+    }
+  ],
+  "cardlist": [
+    {
+      "image": "../images/finance/bankimg1.png",
+      "name": "广发银行DIY卡"
+    },
+    {
+      "image": "../images/finance/bankimg2.png",
+      "name": "广发银行DIY卡"
+    },
+    {
+      "image": "../images/finance/bankimg3.png",
+      "name": "广发银行DIY卡"
+    },
+    {
+      "image": "../images/finance/bankimg3.png",
+      "name": "广发银行DIY卡"
+    },
+    {
+      "image": "../images/finance/bankimg1.png",
+      "name": "广发银行DIY卡"
+    },
+    {
+      "image": "../images/finance/bankimg2.png",
+      "name": "广发银行DIY卡"
+    },
+    {
+      "image": "../images/finance/bankimg3.png",
+      "name": "广发银行DIY卡"
+    },
+    {
+      "image": "../images/finance/bankimg1.png",
+      "name": "广发银行DIY卡"
+    },
+    {
+      "image": "../images/finance/bankimg1.png",
+      "name": "广发银行DIY卡"
+    }
+  ],
+  "conduct": [
+    {
+      "msg": "众邦理财30天",
+      "pencent": "4.0%",
+      "type": "活期"
+    },
+    {
+      "msg": "众邦理财30天",
+      "pencent": "4.0%",
+      "type": "活期"
+    },
+    {
+      "msg": "众邦理财30天",
+      "pencent": "4.0%",
+      "type": "活期"
+    },
+    {
+      "msg": "众邦理财30天",
+      "pencent": "4.0%",
+      "type": "活期"
+    }
+  ],
+  "insulist": [
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "www.baidu.com",
+      "btn": "查看",
+      "image": "../images/finance/inlimg1.png"
+    },
+    {
+      "type": "交通险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "www.baidu.com",
+      "btn": "查看",
+      "image": "../images/finance/inlimg2.png"
+    },
+    {
+      "type": "财产险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "www.baidu.com",
+      "btn": "查看",
+      "image": "../images/finance/inlimg3.png"
+    }
+  ],
+  "loanlist": [
+    {
+      "image": "../images/finance/banklogo1.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看"
+    },
+    {
+      "image": "../images/finance/banklogo2.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看"
+    },
+    {
+      "image": "../images/finance/banklogo3.png",
+      "name": "小米贷款",
+      "price": "2000-2万",
+      "pricetext": "额度范围 (元）",
+      "lixi1": "日利息：0.01万元",
+      "lixi2": "1-12个月 | 30分钟放款",
+      "url": "javascript:;",
+      "btn": "查看"
+    }
+  ],
+  "msglist": [
+    {
+      "content": "叫醒你的眼！去上海奇葩的主题餐厅约个会",
+      "viewtimes": "浏览233",
+      "spot": "&emsp;· &emsp;",
+      "date": "2019-6-12",
+      "image": "../images/finance/msgimg1.png"
+    },
+    {
+      "content": "泸溪河桃酥——网红产品不完全测评",
+      "viewtimes": "浏览233",
+      "spot": "&emsp;· &emsp;",
+      "date": "2019-6-12",
+      "image": "../images/finance/msgimg2.png"
+    },
+    {
+      "content": "黑糖补血，牛奶补钙——多喝不胖养生饮品黑糖珍珠",
+      "viewtimes": "浏览233",
+      "spot": "&emsp;· &emsp;",
+      "date": "2019-6-12",
+      "image": "../images/finance/msgimg3.png"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>门店详情</title>
+    <!--头部样式-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+    <link rel="stylesheet" href="../css/finance/nav.css">
+    <!--私有样式-->
+    <link rel="stylesheet" href="../css/finance/storeintro.css">
+</head>
+<body>
+<!--header-->
+<div class="headerbox">
+    <ul class="eplist">
+        <li><a href="javascript:history.back(-1)" class="back">返回</a></li>
+        <li>保险</li>
+        <li><a href="" class="fx"></a></li>
+    </ul>
+</div>
+<!--content-->
+<div class="conpanyimg">
+    <img src="../images/finance/storebg.png" alt="">
+    <div class="conpanylogo">
+        <img src="../images/finance/conlogo.png" alt="">
+    </div>
+</div>
+<div class="message">
+    <div class="messagetitle">
+        <p>桂平太平洋保险分公司</p>
+        <ul class="stars">
+            <li><img src="../images/finance/staron.png" alt=""></li>
+            <li><img src="../images/finance/staron.png" alt=""></li>
+            <li><img src="../images/finance/staron.png" alt=""></li>
+            <li><img src="../images/finance/staroff.png" alt=""></li>
+            <li><img src="../images/finance/staroff.png" alt=""></li>
+        </ul>
+        <span class="conpare">2评论</span>
+    </div>
+    <div class="date">
+        <p>时间:&emsp;<span>周一至周日 09：00-19：00</span></p>
+    </div>
+    <div class="place">
+        <p>地址:&emsp;<span>中山南路（原桂贵路）与迎宾大道…</span> <span class="placeimg">
+            <img src="../images/finance/placelogo.png" alt="">
+        </span></p>
+    </div>
+</div>
+<!--公司介绍-->
+<div class="conintro">
+    <div class="msgtitle">
+        <p>公司介绍</p>
+    </div>
+    <p>广西百桂建筑装饰工程有限责任公司是一家室内设计、工程施工、 集成家居产品加工和建材批发销售一体化的装饰企业，拥有独立资质，公司旗下产业涉及建筑工程、智能家居研发、酒店房地产投资等众多领域。公司位于南宁青秀区中越路7号，店内材料展示区面积3000平方米，囊括了国内外一线知名的材料品牌。百名资深设计师先后为千户家庭提供优质的装修服务，百桂装饰以求真务实的心态服务客户，为广大民众实现中国家庭住宅梦想，将不断为客户提供高性价比的家居服务，为中国家居行业持续贡献力量，百桂人立志以百年品质为企业目标。</p>
+</div>
+<!--产品展示-->
+<div class="goodshow">
+    <div class="msgtitle">
+        <p>产品展示</p>
+    </div>
+    <div class="nav">
+        <ul class="tab_menu">
+            <li class="now">全部</li>
+            <li>健康险</li>
+            <li>意外险</li>
+            <li>财产险</li>
+        </ul>
+        <span class="off"></span>
+    </div>
+    <!--hide-->
+    <div class="hidebox"></div>
+    <!--保险列表-->
+    <ul class="tab_box">
+        <li class="current">
+            <div class="insucot"><!--insulist.djgp--></div>
+        </li>
+        <li>
+            <div class="insucot"><!--insulist.djgp--></div>
+        </li>
+        <li>
+            <div class="insucot"><!--insulist.djgp--></div>
+        </li>
+        <li>
+            <div class="insucot"><!--insulist.djgp--></div>
+        </li>
+    </ul>
+    <div class="showmore">
+        <p style="background: url('../images/finance/orglink.png') 5.74rem 0.37rem no-repeat">查看更多商品</p>
+    </div>
+</div>
+<!--用户评论-->
+<div class="user">
+    <div class="usertitle">
+        <p>用户评论</p>
+    </div>
+    <div class="score">
+        <div class="scoreleft">
+            <p>好评率</p>
+            <p>100%</p>
+            <p>根据用户评分计算</p>
+        </div>
+        <ul class="scoreright">
+            <li>
+                <span>超赞</span>
+                <div class="pross">
+                    <div class="prosscolor">
+                    </div>
+                </div>
+                <span>3</span>
+            </li>
+            <li>
+                <span>满意</span>
+                <div class="pross">
+                    <div class="prosscolor">
+                    </div>
+                </div>
+                <span>3</span>
+            </li>
+            <li>
+                <span>还行</span>
+                <div class="pross">
+                    <div class="prosscolor">
+                    </div>
+                </div>
+                <span>3</span>
+            </li>
+            <li>
+                <span>一般</span>
+                <div class="pross">
+                    <div class="prosscolor">
+                    </div>
+                </div>
+                <span>3</span>
+            </li>
+            <li>
+                <span>失望</span>
+                <div class="pross">
+                    <div class="prosscolor">
+                    </div>
+                </div>
+                <span>3</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="bot">
+    <div class="botleft" onclick=comment()>
+        发表评论
+    </div>
+    <div class="botright" onclick=contact()>
+        联系TA
+    </div>
+</div>
+<!--公共js-->
+<script src="../js/finance/angular.min.js"></script>
+<script src="../js/finance/jquery-1.11.0.min.js"></script>
+<script src="../js/finance/mobile.js"></script>
+<!--私有js-->
+<script src="../js/finance/storeintro.js"></script>
+<script src="../js/finance/doubleclick.js"></script>
+</body>
+</html>

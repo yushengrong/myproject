@@ -1,0 +1,71 @@
+{
+  "insulist": [
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg1.png"
+    },
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg2.png"
+    },
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg3.png"
+    },
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg4.png"
+    },
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg5.png"
+    },
+    {
+      "type": "健康险",
+      "name": "快乐e生重疾险",
+      "conpany": "中国人寿保险",
+      "number": "168",
+      "start": "起",
+      "url": "javascript:;",
+      "btn": "查看",
+      "image": "../images/finance/isbgimg6.png"
+    }
+  ],
+  "hidelist": [
+    {
+      "msg1": "儿童险",
+      "msg2": "旅游险",
+      "msg3": "车险"
+    }
+  ]
+}

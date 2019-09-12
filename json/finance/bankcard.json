@@ -1,0 +1,72 @@
+{
+  "banklist": [
+    {
+      "image": "../images/finance/bkimg1.png",
+      "name": "光大银行抖音联名信用卡",
+      "type": "标准卡"
+    },
+    {
+      "image": "../images/finance/bkimg2.png",
+      "name": "中信银行标准信用卡",
+      "type": "车主卡"
+    },
+    {
+      "image": "../images/finance/bkimg3.png",
+      "name": "平安银行标准信用卡",
+      "type": "购物卡"
+    },
+    {
+      "image": "../images/finance/bkimg4.png",
+      "name": "兴业淘宝网联名IC芯片卡",
+      "type": "商旅卡"
+    },
+    {
+      "image": "../images/finance/bkimg5.png",
+      "name": "光大“福”信用卡",
+      "type": "航空卡"
+    },
+    {
+      "image": "../images/finance/bkimg6.png",
+      "name": "光大银行抖音联名信用卡",
+      "type": "标准卡"
+    },
+    {
+      "image": "../images/finance/bkimg7.png",
+      "name": "花旗礼享信用卡",
+      "type": "游戏卡"
+    },
+    {
+      "image": "../images/finance/bkimg8.png",
+      "name": "中信银行“颜”系列信用卡",
+      "type": "美食卡"
+    }
+  ],
+  "type": [
+    {
+      "list1": "全部",
+      "list2": "标准卡",
+      "list3": "购物卡",
+      "list4": "商旅卡",
+      "list5": "车主卡",
+      "list6": "游戏卡",
+      "list7": "影视卡",
+      "list8": "卡通卡"
+    }
+  ],
+  "bank": [
+    {
+      "list1": "全部",
+      "list2": "浦发银行",
+      "list3": "中信银行",
+      "list4": "招商银行",
+      "list5": "光大银行",
+      "list6": "花旗银行",
+      "list7": "平安银行",
+      "list8": "兴业银行",
+      "list9": "广发银行",
+      "list10":"上海银行",
+      "list11": "渣打银行",
+      "list12": "广州银行"
+    }
+  ]
+}

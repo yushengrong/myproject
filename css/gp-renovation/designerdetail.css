@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    cursor: pointer;
+}
+html,body{
+    background: #f8f8f8;
+}
+.message{
+    width: 10rem;
+    height: 11.2rem;
+    overflow: hidden;
+    background: #fff;
+}
+.message .dsnphoto{
+    width: 2.67rem;
+    height: 2.67rem;
+    margin: 0.64rem auto 0 auto;
+}
+.dsnphoto>img{
+    width: 2.67rem;
+    height: 2.67rem;
+}
+.message>p:nth-of-type(1){
+    color: #333;
+    font-size: 0.43rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 0.25rem;
+}
+.message>p:nth-of-type(2){
+    width: 9.15rem;
+    height: 4.21rem;
+    line-height: 0.72rem;
+    font-size: 0.43rem;
+    margin: 0.53rem auto 0 auto;
+    text-indent: 2em;
+}
+.messagebot{
+    width: 9.14rem;
+    height: 1.28rem;
+    margin: 0.6rem auto 0 auto;
+}
+.messagebot>li{
+    width: 1.28rem;
+    height: 1.28rem;
+    float: left;
+    margin-right: 1.56rem;
+    margin-left: 0.51rem;
+}
+.messagebot>li:nth-of-type(3){
+    margin-right: 0;
+}
+.messagebot>li>p:nth-of-type(1){
+    font-size: 0.48rem;
+    color: #333;
+    text-align: center;
+}
+.messagebot>li>p:nth-of-type(2){
+    font-size: 0.32rem;
+    color: #999;
+    text-align: center;
+    margin-top: 0.06rem;
+}
+.case{
+    width: 10rem;
+    height: 10.4rem;
+    background: #fff;
+    margin-top: 0.43rem;
+    overflow: hidden;
+}
+.casetitle{
+    text-align: center;
+    margin: 0.43rem auto 0 auto;
+    font-size: 0.43rem;
+    color: #333;
+}
+.caselist{
+    width: 9.14rem;
+    height: 9rem;
+    margin: 0 auto 0 auto;
+}
+.list{
+    width:4.37rem;
+    height: 4.2rem;
+    font-weight: 400;
+    color: #333;
+    margin-top: 0.33rem;
+}
+.list:nth-of-type(odd){
+    float: left;
+}
+.list:nth-of-type(even){
+    float: right;
+}
+.list img{
+    width: 4.37rem;
+    height: 3.2rem;
+}
+.list p{
+    font-size: 0.43rem;
+    color: #333;
+
+}
+.bot{
+    width: 10rem;
+    height: 1.6rem;
+    background: #fff;
+    margin-top: 0.43rem;
+    display: flex;
+    justify-content: space-around;
+}
+.botlist{
+    width: 1.6rem;
+    height: 1.17rem;
+    display: block;
+    margin-top: 0.33rem;
+}
+.botlist img{
+    width: 0.48rem;
+    height: 0.44rem;
+    display: block;
+    margin: 0 auto;
+}
+.botlist p{
+    text-align: center;
+    font-size: 0.32rem;
+    color: #333;
+    margin-top: 0.1rem;
+}
+.contact{
+    width:5.33rem;
+    height:1.17rem;
+    background:rgba(250,148,40,1);
+    opacity:1;
+    border-radius:0.11rem;
+    margin-top: 0.21rem;
+    border: none;
+}
+.contact p{
+    font-size: 0.43rem;
+    color: #fff;
+    line-height: 1.17rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.contact span{
+    width: 0.43rem;
+    height: 0.43rem;
+    display: inline-block;
+    background: url("../../images/gp-renovation/phone.png");
+    background-size: 100%;
+    float: left;
+    margin-top: 0.4rem;
+    margin-left: 1.55rem;
+}

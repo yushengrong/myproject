@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>装修</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+    <!--头部样式-->
+    <link rel="stylesheet" href="../css/gp-renovation/nav.css">
+    <!--私有样式-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="../css/gp-renovation/swiper.css">
+    <link rel="stylesheet" href="../css/gp-renovation/index.css">
+</head>
+
+<body>
+<!--头部-->
+<div class="headerbox">
+    <ul class="eplist">
+        <li><a href="javascript:history.back(-1)" class="back">返回</a></li>
+        <li>装修</li>
+        <li><a href="" class="fx"></a></li>
+    </ul>
+</div>
+<!--banner-->
+<div class="banner" style="background:url(../images/gp-renovation/bannerindex.png)">
+    <div class="input">
+        <input type="text" value="请输入关键字">
+            <img class="serch" src="../images/gp-renovation/sousuo.png" alt="">
+    </div>
+</div>
+
+<ul class="contentlists">
+    <!--underlist.djgp-->
+</ul>
+<div class="underbox">
+    <div class="underbg" style="background: url('../images/gp-renovation/indexbg.png')"></div>
+</div>
+
+<div class="effect">
+    <div class="effectmid">
+        <div class="title" onclick="casejump()">
+            <span>效果图</span>
+            <p class="titright"><i>更多</i></p>
+        </div>
+        <div class="effectlists">
+         <!--//caseshow.djgp-->
+        </div>
+        </div>
+<div class="case">
+    <div class="casemid">
+        <div class="title">
+            <span>装修案例</span>
+            <div class="titright" onclick="casejump()">
+                <p class="titright"><i>更多</i></p>
+            </div>
+        </div>
+        <div class="caselists">
+            <!--casebox.djgp-->
+        </div>
+
+   </div>
+</div>
+    <div class="members">
+    <div class="membercot">
+        <div class="title">
+            <span>设计师</span>
+            <div class="titright" onclick="designer()">
+                <p class="titright"><i>更多</i></p>
+            </div>
+        </div>
+        <div class="memberlists">
+            <!--designer.djgp-->
+        </div>
+    </div>
+</div>
+    <div class="masters">
+        <div class="mastercot">
+            <div class="title">
+                <span>装修师傅</span>
+                <div class="titright" onclick="designer()">
+                    <p class="titright"><i>更多</i></p>
+                </div>
+            </div>
+            <ul class="masterlists">
+                <li>
+                    <div class="type">
+                        <p>水泥工</p>
+                    </div>
+                    <img src="../images/gp-renovation/member1.png" alt="">
+                    <p>张师傅</p>
+                    <input type="button" value="联系TA">
+                </li>
+            </ul>
+        </div>
+    </div>
+<div class="conpany">
+    <div class="conpanycot">
+        <div class="title">
+            <span>装修公司</span>
+            <div class="titright" onclick="conpany()">
+                <p class="titright"><i>更多</i></p>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container cplistbox">
+            <ul class="swiper-wrapper cplistcot">
+                <li class="swiper-slide"></li>
+                <li class="swiper-slide"></li>
+                <li class="swiper-slide"></li>
+                <li class="swiper-slide"></li>
+                <li class="swiper-slide"></li>
+                <li class="swiper-slide"></li>
+                <!--//给每个盒子占好位置-->
+            </ul>
+            </div>
+        </div>
+    </div>
+<div class="strategy">
+    <div class="stramid">
+        <div class="title">
+            <span>装修攻略</span>
+            <div class="titright" onclick="strategy()">
+                <p class="titright"><i>更多</i></p>
+            </div>
+        </div>
+        <div class="stracot">
+        </div>
+        <div class="strategymore">
+            <p><a>查看更多文章</a><span><img src="../images/gp-renovation/strategymore.png" alt=""></span></p>
+        </div>
+
+    </div>
+</div>
+</div>
+<script src="../js/gp-renovation/angular.min.js"></script>
+<script src="../js/gp-renovation/jquery-1.11.0.min.js"></script>
+<script src="../js/gp-renovation/swiper.js"></script>
+<script src="../js/gp-renovation/mobile.js"></script>
+<script src="../js/gp-renovation/swiper-use.js"></script>
+<script src="../js/gp-renovation/indexajax.js"></script>
+<script src="../js/gp-renovation/tiaozhuan.js"></script>
+</body>
+</html>

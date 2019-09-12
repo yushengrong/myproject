@@ -1,0 +1,58 @@
+{
+  "bank": [
+    {
+      "image": "../images/finance/banksign1.png",
+      "cname": "中国华夏银行",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    },
+    {
+      "image": "../images/finance/banksign2.png",
+      "cname": "中国北京银行",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    },
+    {
+      "image": "../images/finance/banksign3.png",
+      "cname": "中国招商银行",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    },
+    {
+      "image": "../images/finance/banksign4.png",
+      "cname": "桂林银行",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    },
+    {
+      "image": "../images/finance/banksign5.png",
+      "cname": "民生银行",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    },
+    {
+      "image": "../images/finance/banksign6.png",
+      "cname": "中国长城信用社",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    },
+    {
+      "image": "../images/finance/banksign7.png",
+      "cname": "杭州银行",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    },
+    {
+      "image": "../images/finance/banksign8.png",
+      "cname": "中国工商银行",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    },
+    {
+      "image": "../images/finance/banksign9.png",
+      "cname": "桂林银行",
+      "number": "4.0%",
+      "cot": "储蓄存款利率"
+    }
+  ]
+}

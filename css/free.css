@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 0.347rem;
+}
+.free{
+    width: 10rem;
+    height:auto;
+    background: -webkit-linear-gradient(left, #ace2f3, #ffffff, #b3e5f4); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #ace2f3, #ffffff, #b3e5f4); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #ace2f3, #ffffff, #b3e5f4); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #ace2f3, #ffffff, #b3e5f4); /* 标准的语法（必须放在最后） */
+    padding-bottom: 0.667rem;
+}
+.free_top{
+    width:10rem;
+    height: 13.56rem;
+    background: url("../images/free/free.png") left top no-repeat;
+    background-size: 10rem 6.47rem;
+}
+.free_top>img{
+    width: 9.333rem;
+    height: 5.88rem;
+    margin-top: 0.8rem;
+    z-index: 88;
+}
+.free_top01{
+    width: 9.307rem;
+    height: 7.653rem;
+    background-color: #ffffff;
+    border-radius: 0.267rem;
+    border: solid 0.02rem #21c1f8;
+    margin: 0 auto;
+    margin-top: -0.76rem;
+}
+.free_p{
+    color: #f63610;
+    margin-left: 0.64rem;
+}
+.free_p01{
+    margin-top: 1.253rem;
+}
+.free_p02{
+    font-size: 0.347rem;
+    letter-spacing: 0.02rem;
+    color: #333333;
+    margin-left: 0.64rem;
+    line-height: 0.56rem;
+}
+.free_p03{
+    margin-top: 0.4rem;
+}
+.free_top02{
+    margin-top: 0.4rem;
+    width: 9.307rem;
+    height: 2.44rem;
+    background-color: #f7f8d0;
+    border-radius: 0rem 0rem 0.267rem 0.267rem;
+}
+.free_top03 img{
+    margin: 0.36rem 0 0.24rem 0.64rem;
+    width: 1.347rem;
+    height: 0.347rem;
+}
+.free_p04{
+    margin-left: 0.64rem;
+    width: 8.12rem;
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+    letter-spacing: 0.013rem;
+    color: #f63610;
+}
+/*仅限行业*/
+.only{
+    width: 9.307rem;
+    height: 11.827rem;
+    margin: 0 auto;
+    margin-top: 0.667rem;
+    background: url("../images/free/free01.png")  left bottom no-repeat;
+    background-size: 9.307rem 11.04rem;
+}
+.only_box{
+    width: 7.613rem;
+    height: 1.133rem;
+    margin: 0 auto;
+    background: url("../images/free/biaoti.png") no-repeat;
+    background-size: 7.613rem 1.133rem;
+    text-align: center;
+    line-height: 1.133rem;
+    font-size: 0.453rem;
+    letter-spacing: 0.019rem;
+    border-radius: 0.567rem;
+    color: #ffffff;
+}
+.only_list{
+    width: 8.96rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0.587rem;
+}
+.only_list:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.only_list li{
+    float: left;
+    margin: 0 0.24rem 0.36rem 0.24rem;
+    width: 4rem;
+    height: 0.84rem;
+    background-color: #01c95a;
+    border-radius: 0.42rem;
+    box-sizing: border-box;
+    border: solid 0.02rem #01c95a;
+    font-size: 0.373rem;
+    line-height: 0.82rem;
+    letter-spacing: 0.015rem;
+    color: #ffffff;
+    text-align: center;
+}
+.only_list .only_li{
+    color:#01c95a;
+    background:#ffffff;
+}
+.only_box01 img{
+    width: 1.347rem;
+    height: 0.347rem;
+    margin: 0.42rem 0 0 0;
+}
+.only_h5{
+    font-size: 0.347rem;
+    line-height: 0.56rem;
+    letter-spacing: 0.013rem;
+    color: #333333;
+}
+.only_p{
+    font-size: 0.347rem;
+    line-height: 0.56rem;
+    letter-spacing: 0.013rem;
+    color: #333333;
+}
+/*行业名额*/
+.places{
+    width: 9.307rem;
+    height: 5.027rem;
+    margin: 0 auto;
+    margin-top: 0.667rem;
+    background: url("../images/free/free02.png")  left bottom no-repeat;
+    background-size: 9.307rem 4.24rem;
+}
+.places_box{
+    width: 8.5rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+.places_box:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.places_left{
+    float: left;
+    width: 0.507rem;
+    height: 0.507rem;
+    background-color: #01c95a;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.507rem;
+    line-height: 0.54rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+.places_right{
+    float: right;
+    width: 7.8rem;
+    font-size: 0.4rem;
+    color: #333333;
+    line-height: 0.66rem;
+    margin-top: -0.16rem;
+}
+/*企业/事业单位领取条件*/
+.condition{
+    width: 9.307rem;
+    height: 10.547rem;
+    margin: 0 auto;
+    margin-top: 0.667rem;
+    background: url("../images/free/free03.png")  left bottom no-repeat;
+    background-size: 9.307rem 9.76rem;
+}
+/*个体工商户/个人用户*/
+.user{
+    width: 9.307rem;
+    height: 10.054rem;
+    margin: 0 auto;
+    margin-top: 0.667rem;
+    background: url("../images/free/free04.png")  left bottom no-repeat;
+    background-size: 9.307rem 9.267rem;
+}
+/*领取网络服务的好处*/
+.benefit{
+    width: 9.307rem;
+    height: 8.467rem;
+    margin: 0 auto;
+    margin-top: 0.667rem;
+    background: url("../images/free/free05.png")  left bottom no-repeat;
+    background-size: 9.307rem 7.68rem;
+}
+/*开放名额预告*/
+.foreshow{
+    width: 9.307rem;
+    height: 15.36rem;
+    margin: 0 auto;
+    margin-top: 0.667rem;
+    background: url("../images/free/free06.png")  left bottom no-repeat;
+    background-size: 9.307rem 14.573rem;
+}
+.foreshow_box{
+    width: 8.4rem;
+    margin: 0 auto;
+}
+.foreshow .only_box01 img{
+    margin: 0.56rem 0 0.24rem 0;
+}
+/*申请免费体验名额*/
+.apply{
+    width: 9.307rem;
+    height: 36.454rem;
+    margin: 0 auto;
+    margin-top: 0.667rem;
+    background: url("../images/free/free07.png")  left bottom no-repeat;
+    background-size: 9.307rem 35.667rem;
+}
+
+.setM_list{
+    list-style: none;
+}
+.setM_list li{
+    width: 100%;
+    margin-top: 0.4rem;
+    box-sizing: border-box;
+    position:  relative;
+}
+.setM_list span{
+    display: block;
+    height: 1rem;
+    line-height: 1rem;
+    margin-left: 0.4rem;
+    font-size: 0.373rem;
+    color:#a0a0a0;
+}
+.setM_list li div,.setM_list input{
+    width: 8.4rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-indent: 0.2rem;
+    font-size: 0.427rem;
+    color: #a0a0a0;
+    background-color: #ffffff;
+    border-radius: 0.053rem;
+    border: solid 0.014rem #bebebe;
+    margin: 0 auto;
+}
+.setM_list input{
+    position: relative;
+    left: 50%;
+    margin-left: -4.2rem;
+    outline: none;
+}
+.setM_list li input:focus, .add input:focus {
+    border: 0.014rem solid #19d09b;
+}
+.setM_list li i {
+    display: inline-block;
+    width: 0.213rem;
+    height: 0.333rem;
+    background: url(../images/free/Path.png)no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 0.7rem;
+    top: 1.5rem;
+    z-index: 9;
+}
+.damand_text{
+    width: 8.2rem;
+    height: 4rem;
+    resize: none;
+    outline: medium;
+    font-size: 0.427rem;
+    padding-left: 0.2rem;
+    padding-top: 0.15rem;
+    border: solid 0.014rem #bebebe;
+    position: relative;
+    left: 50%;
+    margin-left: -4.2rem;
+}
+.bnt_true{
+    width: 5.92rem;
+    height: 1.267rem;
+    background-image: linear-gradient(0deg, #10cc5f 0%, #b6ee18 100%), linear-gradient(#ffffff,#ffffff);
+    border-radius: 0.633rem;
+    font-size: 0.453rem;
+    color: #ffffff;
+    border: none;
+    outline: medium;
+    position: relative;
+    left: 50%;
+    margin-left: -2.96rem;
+    margin-top: 0.8rem;
+}
+
+.successful{
+    width: 10rem;
+    height: 700rem;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+.successfulbox{
+    width: 6.267rem;
+    height: 4.267rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.133rem 0.32rem 0
+    rgba(33, 33, 33, 0.75);
+    border-radius: 0.133rem;
+    position: fixed;
+    top: 40%;
+    left:1.867rem;
+}
+.successfulbox01{
+    float: right;
+    margin: 0.173rem;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.successfulbox01 img{
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.successfulbox02{
+    width: 0.96rem;
+    height: 0.973rem;
+    margin: 0.787rem auto 0 auto;
+}
+.successfulbox02 img{
+    float: left;
+    width: 0.96rem;
+    height: 0.973rem;
+}
+.successfulp{
+    text-align: center;
+    font-size: 0.373rem;
+    color: #333333;
+    margin-top: 0.24rem;
+}
+.successfulbtn{
+    width: 2.133rem;
+    height: 0.693rem;
+    background-color: #ffffff;
+    border-radius: 0.053rem;
+    border: solid 0.02rem #bfbfbf;
+    outline: none;
+    font-size: 0.373rem;
+    color: #333333;
+    margin-left: 2.067rem;
+    margin-top: 0.5rem;
+}

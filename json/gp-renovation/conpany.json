@@ -1,0 +1,53 @@
+{
+  "conpany": [
+    {
+      "image": "../images/gp-renovation/cpimg1.png",
+      "cname": "华浔品味装饰工程有限公司",
+      "list": "../images/gp-renovation/staron.png",
+      "link": "2评论",
+      "content": "桂平市万达广场西一座2218"
+    },
+    {
+      "image": "../images/gp-renovation/cpimg2.png",
+      "cname": "中庭装饰工程集团有限责任公司",
+      "list": "../images/gp-renovation/staron.png",
+      "link": "2评论",
+      "content": "桂平市万达广场西一座2218"
+    },
+    {
+      "image": "../images/gp-renovation/cpimg3.png",
+      "cname": "华浔品味装饰工程有限公司",
+      "list": "../images/gp-renovation/staron.png",
+      "link": "2评论",
+      "content": "桂平市万达广场西一座2218"
+    },
+    {
+      "image": "../images/gp-renovation/cpimg4.png",
+      "cname": "博若森装修旗舰店",
+      "list": "../images/gp-renovation/staron.png",
+      "link": "2评论",
+      "content": "桂平市万达广场西一座2218"
+    },
+    {
+      "image": "../images/gp-renovation/cpimg5.png",
+      "cname": "长春百合装饰工程有限公司",
+      "list": "../images/gp-renovation/staron.png",
+      "link": "2评论",
+      "content": "桂平市万达广场西一座2218"
+    },
+    {
+      "image": "../images/gp-renovation/cpimg6.png",
+      "cname": "今朝装饰设计有限公司",
+      "list": "../images/gp-renovation/staron.png",
+      "link": "2评论",
+      "content": "桂平市万达广场西一座2218"
+    },
+    {
+      "image": "../images/gp-renovation/cpimg7.png",
+      "cname": "石家庄乐豪斯装饰",
+      "list": "../images/gp-renovation/staron.png",
+      "link": "2评论",
+      "content": "桂平市万达广场西一座2218"
+    }
+  ]
+}

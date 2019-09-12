@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+body,html{
+    background: #F8F8F8;
+}
+.cardout{
+    width: 10rem;
+    height: 7.53rem;
+    margin-top: 1.2rem;
+    background: #fff;
+}
+.card{
+    width: 9.15rem;
+    height: 7.73rem;
+    margin: 0 auto;
+}
+.card>img{
+    width: 9.15rem;
+    height: 5.81rem;
+    margin: 0.43rem auto 0 auto;
+}
+.card>p{
+    margin-top: 0.2rem;
+    font-size: 0.43rem;
+    font-weight: bold;
+    color: #333;
+}
+.linkbox{
+    width: 10rem;
+    height: 1.2rem;
+    margin-top: 0.43rem;
+    background: #fff;
+}
+.linkmid{
+    width: 9.14rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    background: url("../../images/finance/jiantou.png") right no-repeat;
+    background-size:0.18rem 0.32rem ;
+}
+.linkmid>img{
+    margin-top: 0.4rem;
+    width: 0.43rem;
+    height: 0.43rem;
+    float: left;
+}
+.linkmid>span{
+    display: inline-block;
+    float: left;
+    font-size: 0.43rem;
+    color: #666;
+    margin-left: 0.16rem;
+    margin-top: 0.3rem;
+}
+.msg{
+    width: 10rem;
+    height: 10.53rem;
+    margin-top: 0.43rem;
+    background: #fff;
+    overflow: hidden;
+}
+.msgtitle{
+    width: 9.14rem;
+    height: 0.43rem;
+    margin: 0.43rem auto 0 auto;
+    border-left: 0.08rem solid #FF6F43;
+    box-sizing: border-box;
+    background: url("../../images/finance/jiantou.png") right no-repeat;
+}
+.msgtitle>p{
+    text-indent: 0.21rem;
+    font-size: 0.43rem;
+    float: left;
+    margin-top: -0.06rem;
+    color: #666;
+    font-weight: bold;
+}
+.msgbox{
+    width: 9.09rem;
+    margin: 0 auto;
+}
+.msgbox>p{
+
+    font-size: 0.43rem;
+    color: #333;
+    line-height: 0.72rem;
+}
+.msgbox>p:first-of-type{
+    margin-top: 0.3rem;
+}

@@ -1,0 +1,113 @@
+{
+  "userlist": [
+    {
+      "image": "../images/gp-renovation/user1.png",
+      "name": "王强",
+      "content": "这个思路可以。",
+      "time": "一个小时前",
+      "switch": "../images/gp-renovation/zanoff.png",
+      "class": "zanoff"
+    },
+    {
+      "image": "../images/gp-renovation/user2.png",
+      "name": "张晓梅",
+      "content": "我学习一下。",
+      "time": "一个小时前",
+      "switch": "../images/gp-renovation/zanoff.png",
+      "class": "zanoff"
+    },
+    {
+      "image": "../images/gp-renovation/user3.png",
+      "name": "李雷",
+      "content": "整体效果我觉得还行，其他的在看看",
+      "time": "一个小时前",
+      "switch": "../images/gp-renovation/zanoff.png",
+      "class": "zanoff"
+    },
+    {
+      "image": "../images/gp-renovation/user4.png",
+      "name": "李克群",
+      "content": "敬畏、尊重、自律。",
+      "time": "一个小时前",
+      "switch": "../images/gp-renovation/zanon.png",
+      "class": "zanoff"
+    },
+    {
+      "image": "../images/gp-renovation/user5.png",
+      "name": "张大申",
+      "content": "这个思路可以。",
+      "time": "一个小时前",
+      "switch": "../images/gp-renovation/zanoff.png",
+      "class": "zanoff"
+    }
+  ],
+  "intro": [
+    {
+      "intromsg": "广西百桂建筑装饰工程有限责任公司是一家室内设计、工程施工、 集成家居产品加工和建材批发销售一体化的装饰企业，拥有独立资质，公司旗下产业涉及建筑工程、智能家居研发、酒店房地产投资等众多领域。公司位于南宁青秀区中越路7号，店内材料展示区面积3000平方米，囊括了国内外一线知名的材料品牌。百名资深设计师先后为千户家庭提供优质的装修服务，百桂装饰以求真务实的心态服务客户，为广大民众实现中国家庭住宅梦想，将不断为客户提供高性价比的家居服务，为中国家居行业持续贡献力量，百桂人立志以百年品质为企业目标"
+    }
+  ],
+  "caselist": [
+    {
+      "image": "../images/gp-renovation/case0.png",
+      "text": "中海国际社区3室2厅"
+    },
+    {
+      "image": "../images/gp-renovation/case1.png",
+      "text": "中海国际社区3室2厅"
+    },
+    {
+      "image": "../images/gp-renovation/case2.png",
+      "text": "中海国际社区3室2厅"
+    },
+    {
+      "image": "../images/gp-renovation/case3.png",
+      "text": "中海国际社区3室2厅"
+    }
+  ],
+  "designer": [
+    {
+      "image": "../images/gp-renovation/member1.png",
+      "name": "王强"
+    },
+    {
+      "image": "../images/gp-renovation/member2.png",
+      "name": "王强"
+    },
+    {
+      "image": "../images/gp-renovation/member3.png",
+      "name": "王强"
+    },
+    {
+      "image": "../images/gp-renovation/member4.png",
+      "name": "王强"
+    },
+    {
+      "image": "../images/gp-renovation/member5.png",
+      "name": "王强"
+    },
+    {
+      "image": "../images/gp-renovation/member6.png",
+      "name": "王强"
+    }
+  ],
+  "effect": [
+    {
+      "image": "../images/gp-renovation/effect1.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect2.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect3.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect4.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect5.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect6.png"
+    }
+  ]
+}

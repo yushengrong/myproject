@@ -1,0 +1,303 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+a:hover, a:active {
+    outline: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+
+/* prevent callout */
+
+
+body {
+    word-wrap: break-word;
+    margin: 0 auto;
+    color: #3c3c3c;
+}
+
+a {
+    color: #1191C3;
+    text-decoration: none;
+}
+
+
+/*box-163css*/
+.box-163css {
+    width: 10rem;
+    position: relative;
+    float: left;
+    border-bottom: 0.4rem solid #eeeeee;
+}
+
+/*swipe*/
+.swipe {
+    width: 10rem;
+    float: left;
+    overflow: hidden;
+    visibility: visible;
+    position: relative;
+}
+.li_list{
+    height: auto !important;
+}
+.li_list>div{
+    width: 9.307rem;
+    margin: 0 auto;
+    border-bottom: 0.013rem solid #dddddd;
+}
+.li_list>div:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.box01_list {
+    position: relative;
+    -webkit-transition: left 600ms ease-out;
+    width: 10rem;
+    left: 0;
+}
+.list_left{
+    float: left;
+    width: 2.827rem;
+    height: 2.107rem;
+    margin: 0.4rem 0.25rem 0.32rem 0;
+    border: 0.013rem solid #23ac38;
+}
+.list_left img{
+    width: 100%;
+    display: block;
+}
+.list_right{
+    float: left;
+    margin-top: 0.4rem;
+}
+.list_right p{
+    width: 6rem;
+    font-size: 0.4rem;
+    line-height: 0.613rem;
+    letter-spacing: 0;
+    color: #333333;
+    margin-bottom: 0.36rem;
+}
+.list_right p:first-child{
+    min-height: 1rem;
+}
+.list_right span{
+    font-size: 0.293rem;
+    line-height: 0.453rem;
+    letter-spacing: 0;
+    color: #999999;
+}
+.list_right span:first-child{
+    display: inline-block;
+    padding: 0 0.18rem;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 0.067rem;
+    border: solid 0.027rem #999999;
+    text-align: center;
+}
+.list_right span:last-child{
+    float: right;
+}
+.list_right p:last-child:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.more{
+    display: block;
+    width: 2rem;
+    font-size: 0.373rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    margin: 0.3rem auto;
+    color: #999999;
+    background-image: url(../images/more.png);
+    background-repeat: no-repeat;
+    background-position-x: 1.65rem;
+    background-size: 0.3rem 0.3rem;
+
+}
+.box-163css:last-child{
+    margin-bottom: 1.2rem;
+}
+
+/*page*/
+.page {
+    text-align: left;
+    background: white;
+    width: 9.5rem;
+    display: -webkit-box;
+    margin: 0 auto;
+    border-bottom: 0.013rem solid #ccc;
+}
+
+.page li {
+    -webkit-box-flex: 1;
+    font-size: 0.45rem;
+    display: block;
+    color: #666;
+    line-height: 0.61rem;
+    text-align: center;
+    position: relative;
+}
+
+.page li a {
+    color: #666;
+    display: block;
+    line-height: 1.1rem;
+}
+.page li i{
+    display: inline-block;
+    position: absolute;
+    left: 0.23rem;
+    top: 0.3rem;
+}
+#pagenavi1 li:first-child i{
+    width: 0.427rem;
+    height: 0.507rem;
+    background: url("../images/jiancai.png")no-repeat;
+    background-size: 100%;
+}
+#pagenavi2 li:first-child i{
+    width: 0.507rem;
+    height: 0.427rem;
+    background: url("../images/shuma.png")no-repeat;
+    background-size: 100%;
+    left: 0.15rem;
+}
+#pagenavi3 li:first-child i{
+    width: 0.4rem;
+    height: 0.467rem;
+    background: url("../images/canyin.png")no-repeat;
+    background-size: 100%;
+}
+#pagenavi4 li:first-child i{
+    width: 0.467rem;
+    height: 0.427rem;
+    background: url("../images/yiliao.png")no-repeat;
+    background-size: 100%;
+    left: 0.15rem;
+}
+#pagenavi5 li:first-child i{
+    width: 0.48rem;
+    height: 0.427rem;
+    background: url("../images/jiaotong.png")no-repeat;
+    background-size: 100%;
+    left: 0.15rem;
+}
+#pagenavi6 li:first-child i{
+    width: 0.507rem;
+    height: 0.48rem;
+    background: url("../images/shenghuo.png")no-repeat;
+    background-size: 100%;
+    left: 0.15rem;
+}
+
+.page a.active {
+    color: #ff6f43;
+    border-bottom: 0.065rem solid #ff6f43;
+}
+
+.go_btn {
+    margin: 6px auto 12px auto;
+    height: 34px;
+    width: 92%;
+    border: 1px solid #B9B9B9;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(whiteSmoke), to(#E3E3E3));
+    background: -moz-linear-gradient(top, whiteSmoke, #E3E3E3);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.go_btn em {
+    font-style: normal;
+    cursor: pointer;
+}
+
+/*底部*/
+.footer{
+    width: 10rem;
+    height: 1.2rem;
+    background: #ffffff;
+    padding-top: 0.16rem;
+    border-top: 0.013rem solid #dadada;
+}
+.ftlist{
+    width: 10rem;
+    height: 1.2rem;
+}
+.ftlist li{
+    float: left;
+    width: 2.5rem;
+    height: 1.2rem;
+}
+.ftlist li a{
+    display: block;
+    width: 1rem;
+    height: 0.4rem;
+    padding-top: 0.8rem;
+    margin: 0 auto;
+    background: url("../images/ft01.png")center 0.133rem no-repeat;
+    background-size: 0.587rem 0.587rem;
+    text-align: center;
+    font-size: 0.267rem;
+    color: #7f8389;
+}
+.ftlist li:nth-child(2) a{
+    background: url("../images/ft02.png")center 0.133rem no-repeat;
+    background-size: 0.587rem 0.587rem;
+}
+.ftlist li:nth-child(3) a{
+    background: url("../images/ft03.png")center 0.133rem no-repeat;
+    background-size: 0.587rem 0.587rem;
+}
+.ftlist li:nth-child(4) a{
+    background: url("../images/ft04.png")center 0.133rem no-repeat;
+    background-size: 0.587rem 0.587rem;
+}
+.ftlist li.scart a{
+    position: relative;
+}
+.ftlist li.scart a .msgnum{
+    display: block;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: #fc6120;
+    border-radius: 0.24rem;
+    position: absolute;
+    right: -0.093rem;
+    top: -0.06rem;
+    font-size: 0.16rem;
+    color: #ffffff;
+    line-height: 0.48rem;
+    text-align: center;
+}

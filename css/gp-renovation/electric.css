@@ -1,0 +1,96 @@
+.head{
+    width: 10rem;
+    height: 1.16rem;
+    margin-top: 1.2rem;
+}
+.ullist{
+    width: 8.21rem;
+    height: 1.16rem;
+    margin: 0.29rem 0 auto 0.43rem;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ullist>li{
+    width: 1.73rem;
+    height: 0.88rem;
+    float: left;
+    font-size: 0.43rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: #333;
+}
+.current{
+    border-bottom: 0.05rem solid #FF6F43;
+}
+.current{
+    color: #FF6F43 !important;
+}
+.head>span{
+    width: 0.43rem;
+    height: 0.23rem;
+    margin-top: 0.49rem;
+    margin-left: 0.59rem;
+    float: left;
+    background-size:100% ;
+}
+.off{
+    background: url("../../images/gp-renovation/offjiantou.png");
+}
+.on{
+    background: url("../../images/gp-renovation/orgjiantou.png");
+}
+.underlist{
+    width: 9.14rem;
+    height: 1.81rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: none;
+    background: #fff !important;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0.12rem 0.16rem 0.16rem -0.16rem rgba(0,0,0,0.1);
+}
+.underlist li{
+    width: 2rem;
+    height: 0.93rem;
+    border: 0.03rem solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 0.11rem;
+    font-size: 0.37rem;
+    color: #333;
+    text-align: center;
+    line-height: 0.93rem;
+    margin-top: 0.13rem;
+    float: left;
+    margin-right: 0.37rem;
+}
+.underlist li:nth-of-type(4){
+    margin-right: 0;
+}
+.goodlist li{
+    margin-top: 0.43rem;
+    float: left;
+}
+.goodlist li:nth-of-type(n+3){
+    margin-top: 0.53rem;
+}
+.goodlist li:nth-of-type(odd){
+    margin-left: 0.43rem;
+}
+.goodlist li:nth-of-type(even){
+    margin-left: 0.53rem;
+}
+.goodlist li a>img{
+    width: 4.37rem;
+    height: 3.2rem;
+}
+.goodlist li a>p{
+    font-size: 0.37rem;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

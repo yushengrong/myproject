@@ -1,0 +1,79 @@
+.nav{
+    width: 10rem;
+    height: 1.17rem;
+
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.01rem solid #eee;
+    margin: 1.2rem auto 0 auto;
+}
+.nav li{
+    width: 2.48rem;
+    height: 1.17rem;
+    font-size: 0.43rem;
+    color: #333;
+    text-align: center;
+    line-height: 1rem;
+}
+.nav .current{
+    color: #FF6F43;
+    border-bottom: 0.05rem solid #FF6F43;
+    box-sizing: border-box;
+}
+.tab{
+    width: 9.14rem;
+    margin: 0 auto;
+}
+.tab>li{
+    width: 9.14rem;
+    display: none;
+}
+.tab_list{
+    width: 9.14rem;
+}
+.tab_list>li{
+    width: 4.37rem;
+    height: 3.47rem;
+    border: 0.03rem solid #EDEDED;
+    box-sizing: border-box;
+    margin-top: 0.37rem;
+}
+.tab_list>li{
+    float: left;
+}
+.tab_list>li:last-of-type{
+    margin-bottom: 0.43rem;
+}
+.tab_list>li:nth-of-type(odd){
+    float: right;
+}
+.tab_list>li p{
+    text-indent: 0.48rem;
+}
+.tab_list>li p:first-of-type{
+    margin-top: 0.48rem;
+    font-size: 0.37rem;
+    color: #333;
+}
+.tab_list>li p:nth-of-type(2){
+    margin-top: 0.1rem;
+    font-size: 0.64rem;
+    color: #F14338;
+}
+.tab_list>li p:last-of-type{
+    margin-top: 0.05rem;
+    font-size: 0.32rem;
+    color: #999;
+}
+.litype{
+    width: 0.75rem;
+    height: 0.43rem;
+    margin-left: 0.48rem;
+    font-size: 0.29rem;
+    color: #FFFFFF;
+    background: #FA9428;
+    margin-top: 0.14rem;
+    line-height: 0.43rem;
+    text-align: center;
+}
+

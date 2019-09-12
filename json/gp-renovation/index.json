@@ -1,0 +1,165 @@
+{
+  "underlist": [
+    {
+      "image": "../images/gp-renovation/listlogo1.png",
+      "logoname": "案例/效果图",
+      "jump": "casejump()"
+    },
+    {
+      "image": "../images/gp-renovation/listlogo2.png",
+      "logoname": "装修公司",
+      "jump": "conpany()"
+    },
+    {
+      "image": "../images/gp-renovation/listlogo3.png",
+      "logoname": "设计师",
+      "jump": "designer()"
+    },
+    {
+      "image": "../images/gp-renovation/listlogo4.png",
+      "logoname": "装修师傅",
+      "jump": "designer()"
+    },
+    {
+      "image": "../images/gp-renovation/listlogo5.png",
+      "logoname": "家居建材",
+      "jump": "building()"
+    },
+    {
+      "image": "../images/gp-renovation/listlogo6.png",
+      "logoname": "装修报价",
+      "jump": "offer()"
+    },
+    {
+      "image": "../images/gp-renovation/listlogo7.png",
+      "logoname": "家具家电",
+      "jump": "electric()"
+    },
+    {
+      "image": "../images/gp-renovation/listlogo8.png",
+      "logoname": "装修攻略",
+      "jump": "strategy()"
+    }
+  ],
+  "caseshow": [
+    {
+      "image": "../images/gp-renovation/effect1.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect2.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect3.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect4.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect5.png"
+    },
+    {
+      "image": "../images/gp-renovation/effect6.png"
+    }
+  ],
+  "casebox": [
+    {
+      "image":"../images/gp-renovation/case1.png",
+      "content": "嘉印象3室2厅1卫"
+    },
+    {
+      "image":"../images/gp-renovation/case2.png",
+      "content": "盛天小世界3室2厅2卫"
+    },
+    {
+      "image":"../images/gp-renovation/case3.png",
+      "content": "嘉和城3室2厅2卫"
+    },
+    {
+      "image":"../images/gp-renovation/case4.png",
+      "content": "民发大观天下4室2厅"
+    }
+  ],
+  "designer": [
+    {
+      "image": "../images/gp-renovation/member1.png",
+      "name": "高峰",
+      "active": "联系TA"
+    },
+    {
+      "image": "../images/gp-renovation/member2.png",
+      "name": "张晓彤",
+      "active": "联系TA"
+    },
+    {
+      "image": "../images/gp-renovation/member3.png",
+      "name": "李婷婷",
+      "active": "联系TA"
+    }
+  ],
+  "conpany": [
+    {
+      "image": "../images/gp-renovation/conpany1.png",
+      "cname": "华浔品味装饰工程",
+      "label": "案例4 | 设计师4"
+    },
+    {
+      "image": "../images/gp-renovation/conpany2.png",
+      "cname": "长春百合装饰工程",
+      "label": "案例4 | 设计师4"
+    },
+    {
+      "image": "../images/gp-renovation/conpany3.png",
+      "cname": "博若森装修旗舰店",
+      "label": "案例4 | 设计师4"
+    },
+    {
+      "image": "../images/gp-renovation/conpany1.png",
+      "cname": "华浔品味装饰工程",
+      "label": "案例4 | 设计师4"
+    },
+    {
+      "image": "../images/gp-renovation/conpany1.png",
+      "cname": "华浔品味装饰工程",
+      "label": "案例4 | 设计师4"
+    },
+    {
+      "image": "../images/gp-renovation/conpany1.png",
+      "cname": "华浔品味装饰工程",
+      "label": "案例4 | 设计师4"
+    }
+  ],
+  "strategy": [
+    {
+      "content": "580㎡花园别墅，远离闹市，悠然自得",
+      "label": "阅读3321 &emsp;&emsp;3个月前",
+      "image": "../images/gp-renovation/strategy1.png"
+    },
+    {
+      "content": "580㎡花园别墅，远离闹市，悠然自得",
+      "label": "阅读3321 &emsp;&emsp;3个月前",
+      "image": "../images/gp-renovation/strategy2.png"
+    },
+    {
+      "content": "580㎡花园别墅，远离闹市，悠然自得",
+      "label": "阅读3321 &emsp;&emsp;3个月前",
+      "image": "../images/gp-renovation/strategy3.png"
+    }
+  ],
+  "master": [
+    {
+      "type": "水泥工",
+      "name": "张师傅",
+      "image": "../images/gp-renovation/member1.png"
+    },
+    {
+      "type": "木工",
+      "name": "李师傅",
+      "image": "../images/gp-renovation/member2.png"
+    },
+    {
+      "type": "刷墙工",
+      "name": "王师傅",
+      "image": "../images/gp-renovation/member3.png"
+    }
+  ]
+}

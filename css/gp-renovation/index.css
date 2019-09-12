@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+html,body{
+    background: #f5f5f5;
+}
+.headerbox{
+    width: 10rem;
+    height: 1.2rem;
+    background: #FA9428;
+}
+.eplist{
+    width: 9.2rem;
+    height: 1.2rem;
+    margin: 0 auto;
+}
+.eplist li{
+    float: left;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+.back{
+    width: 1.32rem;
+    font-size: 0.48rem;
+    color: #ffffff;
+    border: none;
+    background: #ffffff;
+    outline: none;
+    float: left;
+    padding-left: 0.4rem;
+    background: url("../../images/gp-renovation/fh.png")center left no-repeat;
+    background-size: 0.267rem 0.467rem;
+    text-decoration: none;
+}
+.fx{
+    display: block;
+    width: 0.48rem;
+    height: 0.08rem;
+    background: url("../../images/gp-renovation/fx.png") 50% no-repeat;
+    background-size: 0.48rem 0.08rem;
+    margin: 0.56rem 0 0 1.52rem;
+}
+.eplist li:nth-child(1){
+    width: 2.2rem;
+}
+.eplist li:nth-child(2){
+    width: 5rem;
+    text-align: center;
+    font-size: 0.48rem;
+    color: #ffffff;
+}
+.eplist li:nth-child(3){
+    width: 2rem;
+    text-align: right;
+}
+.press_header1{
+    width: 10rem;
+    height: 1.16rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    background: #ffffff;
+    position: relative;
+}
+.press_header2{
+    width: 9.2rem;
+    height: auto;
+    margin: 0 auto;
+}
+.press_header2:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.press_header2 li{
+    float: left;
+    width: 1.71rem;
+    height: 1.16rem;
+    margin-right: 0.43rem;
+}
+.press_header2 li a{
+    display: block;
+    width: 1.71rem;
+    height: 1.15rem;
+    line-height: 1.16rem;
+    text-align: center;
+    border-bottom: 0.05rem solid #ffffff;
+    font-size: 0.43rem;
+    color: #333333;
+    letter-spacing: -0.01rem;
+    box-sizing: border-box;
+}
+.press_header3{
+    width: 0.43rem;
+    height: 0.23rem;
+    position: absolute;
+    top: 0.48rem;
+    right: 0.48rem;
+    z-index: 88;
+}
+.press_header3 img{
+    float: left;
+    width: 0.43rem;
+    height: 0.23rem;
+}
+.banner{
+    width: 10rem;
+    height: 4.4rem;
+    margin-top: 1.2rem;
+    background-size: 10rem 4.27rem !important;
+    position: relative;
+}
+
+.banner .input{
+    width: 9.15rem;
+    height: 1.17rem;
+    position: absolute;
+    top:3.55rem;
+    left: 0.43rem;
+}
+.banner .input img{
+    width: 0.43rem;
+    height: 0.43rem;
+    position: absolute;
+    top: 0.37rem;
+    left: 0.37rem;
+}
+.banner .input input{
+    width: 9.14rem;
+    height: 1.17rem;
+    border-radius: 0.11rem;
+    border:none;
+    padding-left: 1.07rem;
+    color: #ccc;
+    font-size: 0.37rem;
+    outline: none;
+    box-shadow: 0 0 0.3rem 0.01rem;
+    box-sizing: border-box;
+    display: block;
+}
+.serch{
+    position: absolute;
+    top: 0.74rem;
+    left: 0.37rem;
+}
+.contentlists{
+    width: 10rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contentlists>li{
+    width: 2.03rem;
+    height: 2rem;
+    margin-top: 0.61rem;
+    text-align: center;
+}
+.contentlists>li:nth-of-type(n+5){
+    margin-top: 0.51rem;
+}
+.contentlists>li:nth-of-type(4n+1){
+    margin-left: 0.2rem;
+}
+.contentlist img{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.contentlist p{
+    font-size: 0.32rem;
+}
+.underbox{
+    width: 10rem;
+    background: #fff;
+    overflow: hidden;
+}
+.underbg{
+    width: 9.14rem;
+    height: 1.87rem;
+    background-size: 100%;
+    margin: 0.53rem auto 0.43rem auto;
+}
+.effect{
+    width: 10rem;
+    height: 8rem;
+    margin-top: 0.43rem;
+    background: #fff;
+}
+.effectmid{
+    width: 9.12rem;
+    height: 8rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title{
+    width: 9.14rem;
+    height: 0.5rem;
+    margin: 0.43rem auto 0 auto;
+    border-left: 0.08rem solid #FF6F43;
+    font-size: 0.37rem;
+    box-sizing: border-box;
+}
+.title>span{
+    font-size: 0.36rem;
+    float: left;
+    padding-left: 0.21rem;
+}
+.titright{
+    height: 0.37rem;
+    float: right;
+    font-size: 0.37rem;
+    color: #999;
+    line-height: 0.43rem;
+    background: url("../../images/gp-renovation/jiantou.png") center right no-repeat;
+}
+.titright>i{
+    margin-top: -0.04rem;
+    padding-right: 0.4rem;
+    font-style: normal;
+    float: left;
+}
+.effectlists{
+    width: 9.14rem;
+    height: 6.12rem;
+}
+.effectlists:nth-of-type(2){
+    margin-top: 0.53rem;
+}
+.effectlists:nth-of-type(3){
+    margin-top: 0.1rem;
+}
+.effectlist{
+    width: 3.01rem;
+    height: 3.01rem;
+    margin-right: 0.03rem;
+    margin-bottom: 0.03rem;
+    float: left;
+}
+.effectlist:nth-of-type(3){
+    margin-right: 0;
+}
+.effectlist img{
+    width: 3.01rem;
+    height: 3.01rem;
+}
+.case{
+    width: 10rem;
+    height: 10.4rem;
+    background: #fff;
+    margin-top: 0.43rem;
+}
+.casemid{
+    width: 9.14em;
+    height: 10.4rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.caselists{
+    width: 9.14rem;
+    height: 8.95rem;
+}
+.caselist{
+    width: 4.37rem;
+    height: 3.95rem;
+    float: left;
+}
+.caselist:nth-of-type(2n){
+    margin-left: 0.4rem;
+}
+.caselist:nth-of-type(3){
+    margin-top: 0.53rem;
+}
+.caselist:nth-of-type(4){
+    margin-top: 0.53rem;
+}
+.caselist img{
+    width: 4.37rem;
+    height: 3.2rem;
+}
+.caselists:nth-of-type(2){
+     margin-top: 0.59rem;
+ }
+.caselists:nth-of-type(3){
+    margin-top: 0.53rem;
+}
+.caselist p{
+    font-size: 0.4rem;
+}
+.members{
+    width: 10rem;
+    height: 5.39rem;
+    margin-top: 0.43rem;
+    background: #fff;
+}
+.membercot{
+    width: 9.14rem;
+    height: 5.39rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.memberlists{
+    width: 9.14rem;
+    height: 3.47rem;
+    margin-top: 0.53rem;
+    display: flex;
+    justify-content: space-between;
+}
+.memberlist{
+    width: 2.8rem;
+    height: 3.47rem;
+    text-align: center;
+}
+.memberlist img{
+    width: 1.28rem;
+    height: 1.28rem;
+    margin-top: 0.32rem;
+}
+.memberlist p{
+    line-height: 0.43rem;
+    font-size: 0.43rem;
+}
+.memberlist button{
+    width: 1.87rem;
+    height: 0.53rem;
+    font-size: 0.32rem;
+    border: 0.03rem solid #FA9428;
+    border-radius: 2.64rem;
+    color: #FA9428;
+    line-height: 0.53rem;
+    background: #fff;
+    vertical-align: top;
+    margin-top: 0.3rem;
+    outline: none;
+}
+.memberlist .contact a{
+    color: #999;
+}
+.masters{
+    width: 10rem;
+    margin-top: 0.43rem;
+    background: #fff;
+}
+.mastercot{
+    width: 9.14rem;
+    height: 5.39rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.masterlists{
+    width: 9.14rem;
+    display: flex;
+    justify-content: space-between;
+}
+.masterlists>li{
+    margin-top: 0.53rem;
+    width: 2.8rem;
+    height: 4.01rem;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.masterlists>li img{
+    margin-top: 0.32rem;
+}
+.masterlists>li>p{
+    font-size: 0.37rem;
+    color: #333;
+    margin-top: 0.3rem;
+}
+.masterlists>li input{
+    width: 1.87rem;
+    height: 0.53rem;
+    border-radius: 2.64rem;
+    border: 0.03rem solid #FA9428;
+    background: #fff;
+    color: #FA9428;
+    font-size: 0.32rem;
+    outline: none;
+    vertical-align: top;
+    margin-top: 0.4rem;
+}
+.type{
+    width: 1.57rem;
+    height: 1.46rem;
+    position: absolute;
+    top: -0.36rem;
+    right: -0.36rem;
+    transform: rotate(45deg);
+}
+.type>p{
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    background: #FA9428;
+    margin-top: 0.4rem;
+    padding: 0.06rem 0;
+}
+.conpany{
+    width: 10rem;
+    height: 6.35rem;
+    background: #fff;
+    margin-top: 0.43rem;
+    overflow: hidden;
+}
+.conpanycot{
+    width: 10rem;
+    height: 6.35rem;
+    margin: 0 auto;
+}
+.cplistbox{
+    width:10rem !important;
+    height: 8.1rem;
+    margin: 0 auto;
+}
+.cplistcot{
+    margin: 0.59rem auto !important;
+    width: 10rem !important;
+}
+.swiper-slide{
+    width: 3.63rem;
+    height: 3.2rem !important;
+    margin-right: 0.32rem;
+}
+.swiper-slide img{
+    width: 3.73rem;
+    height: 2.93rem;
+}
+.swiper-slide p:nth-of-type(1){
+    font-size: 0.43rem;
+    color: #333;
+    margin-top: 0.1rem;
+}
+.swiper-slide p:nth-of-type(2){
+    font-size: 0.37rem;
+    color: #999;
+    margin-top: 0.05rem;
+}
+.swiper-slide p a{
+    color: #333;
+}
+.cplistbox{
+    width:10rem !important;
+    height: 8.1rem;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+.cplistcot{
+    margin: 0.59rem auto !important;
+    width: 10rem !important;
+}
+.cplistcot>li{
+    /*width: 3.73rem !important;*/
+    height: 8.1rem;
+    font-size: 18px;
+    background: #fff;
+    margin-right: 0.32rem;
+
+}
+.swiper-slide:first-of-type{
+    padding-left: 0.43rem;
+}
+.swiper-slide:last-of-type{
+    padding-right: 0.64rem !important;
+}
+.swiper-slide img{
+    width: 3.73rem;
+    height: 2.93rem;
+}
+.swiper-slide p:nth-of-type(1){
+    font-size: 0.43rem;
+    color: #333;
+    margin-top: 0.1rem;
+}
+.swiper-slide p:nth-of-type(2){
+    font-size: 0.37rem;
+    color: #999;
+    margin-top: 0.05rem;
+}
+.swiper-slide p a{
+    color: #333;
+}
+.strategy{
+    width: 10rem;
+    background: #fff;
+    overflow: hidden;
+}
+.stramid{
+    width: 9.14rem;
+    margin: 0 auto;
+}
+.stracot{
+    width: 9.14rem;
+    margin-top: 0.53rem;
+}
+.strategylist{
+    width: 9.14rem;
+    height: 2.3rem;
+    border-bottom:0.03rem solid #f0f0f0 ;
+    margin-top: 0.43rem;
+}
+.stralistleft{
+    width: 6.83rem;
+    float: left;
+}
+.stralistleft p:nth-of-type(1){
+    font-size: 0.43rem;
+    color: #333;
+}
+.stralistleft p:nth-of-type(2){
+    font-size: 0.37rem;
+    color: #999;
+    margin-top: 0.35rem;
+}
+.stralistimg{
+    float: right;
+}
+.stralistimg img{
+    width: 1.87rem;
+    height: 1.87rem;
+}
+.strategymore{
+    width: 9.14rem;
+    height: 1.01rem;
+    background: #FAFAFA;
+    margin-bottom: 0.51rem;
+}
+.strategymore p{
+    font-size: 0.37rem;
+    text-align: center;
+    line-height: 1.01rem;
+    color: #FF6F43;
+}
+.strategymore p a{
+    color: #FF6F43;
+}
+.strategymore p span{
+    display: inline-block;
+    padding-left: 0.1rem;
+}
+.strategymore p span>img{
+    width: 0.31rem;
+    height: 0.31rem;
+}
+

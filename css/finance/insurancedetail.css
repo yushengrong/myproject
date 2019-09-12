@@ -1,0 +1,157 @@
+body{
+    background: #F8F8F8;
+}
+.bgimg{
+    width: 10rem;
+    height: 5.6rem;
+    margin-top: 1.2rem;
+}
+.bgimg img{
+    width: 10rem;
+    height: 5.6rem;
+}
+.undertext{
+    width: 10rem;
+    height: 2.88rem;
+    background: #fff;
+    overflow: hidden;
+}
+.undertext h4{
+    text-indent: 0.43rem;
+    font-size: 0.48rem;
+    margin-top: 0.5rem;
+}
+.undertext p{
+    text-indent: 0.43rem;
+}
+.undertext p:first-of-type{
+    margin-top: 0.27rem;
+    font-size: 0.32rem;
+    color: #999;
+}
+.undertext p:first-of-type>span{
+    padding: 0 0.06rem;
+}
+.undertext p:last-of-type{
+    margin-top: 0.27rem;
+    font-size: 0.32rem;
+    color: #FF6F43;
+}
+.undertext p:last-of-type>span{
+    font-size: 0.43rem;
+}
+.linkbox{
+    width: 10rem;
+    height: 1.2rem;
+    margin-top: 0.43rem;
+    background: #fff;
+}
+.linkmid{
+    width: 9.14rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    background: url("../../images/finance/jiantou.png") right no-repeat;
+    background-size:0.18rem 0.32rem ;
+}
+.linkmid>img{
+    margin-top: 0.4rem;
+    width: 0.43rem;
+    height: 0.43rem;
+    float: left;
+}
+.linkmid>span{
+    display: inline-block;
+    float: left;
+    font-size: 0.43rem;
+    color: #666;
+    margin-left: 0.16rem;
+    margin-top: 0.3rem;
+}
+.intro{
+    width: 10rem;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 0.43rem;
+}
+.msgtitle{
+    width: 9.14rem;
+    height: 0.43rem;
+    margin: 0.43rem auto 0.27rem auto;
+    border-left: 0.08rem solid #FF6F43;
+    box-sizing: border-box;
+}
+.msgtitle>p{
+    text-indent: 0.21rem;
+    font-size: 0.43rem;
+    float: left;
+    margin-top: -0.06rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.introcot li{
+    width: 9.14rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.introcot li p{
+    padding: 0.05rem 0;
+    font-size: 0.37rem;
+    line-height: 0.7rem;
+}
+.introcot li:first-of-type{
+    margin-top: 0.5rem;
+}
+.introcot li p:first-of-type{
+    text-indent: 0.2rem;
+    float: left;
+}
+.introcot li p:last-of-type{
+    width: 6.45rem;
+    float: right;
+    color: #999;
+}
+.morelink{
+    width: 9.1rem;
+    margin: 0.1rem auto 0 auto;
+    font-size: 0.32rem;
+    color: #999;
+    padding-left: 0.21rem;
+    line-height: 0.7rem;
+}
+.morelink>a{
+    color: deepskyblue;
+    text-decoration: underline ;
+}
+.step{
+    width: 9.57rem;
+    float: right;
+    margin-top: 0.6rem;
+}
+.step>p{
+    font-size: 0.37rem;
+    margin-bottom: 0.27rem;
+    color: #999;
+    border-bottom: 0.03rem solid #EDEDED;
+    padding-bottom: 0.27rem;
+}
+.steplist{
+    width: 9.14rem;
+    margin: 0 auto;
+    float: left;
+}
+.steplist p{
+    font-size: 0.37rem;
+    color: #999;
+    line-height: 0.7rem;
+}
+.steplist p:last-of-type{
+    margin-bottom: 0.4rem;
+}
+.steplist p a{
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+
+

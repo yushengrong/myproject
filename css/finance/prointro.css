@@ -1,0 +1,172 @@
+body{
+    background: #F8F8F8;
+}
+.itsmsg{
+    width: 10rem;
+    height: 5.07rem;
+    margin-top: 1.2rem;
+    background: #fff;
+    overflow: hidden;
+}
+.itsmsg p:first-of-type{
+    font-size: 0.43rem;
+    color: #666;
+    text-indent: 0.43rem;
+    margin-top: 0.36rem;
+}
+.itsmsg p:nth-of-type(n+2){
+    text-align: center;
+}
+.itsmsg p:nth-of-type(2){
+    font-size: 0.96rem;
+    color: #FF6F43;
+}
+.itsmsg p:nth-of-type(3){
+    font-size: 0.37rem;
+    color: #999;
+}
+.msgleft{
+    width: 5rem;
+    float: left;
+}
+.msgleft p{
+    text-align: center;
+}
+.msgleft p:first-of-type{
+    text-indent: 0;
+    font-size: 0.64rem;
+    color: #FF6F43;
+}
+.msgleft p:last-of-type{
+    font-size: 0.32rem;
+    color: #666;
+}
+.msgright{
+    width: 5rem;
+    float: right;
+}
+.msgright p{
+    text-align: center;
+}
+.msgright p:first-of-type{
+    text-indent: 0;
+    font-size: 0.64rem;
+    color: #FF6F43;
+}
+.msgright p:last-of-type{
+    font-size: 0.32rem;
+    color: #666;
+}
+.linkbox{
+    width: 10rem;
+    height: 1.2rem;
+    margin-top: 0.43rem;
+    background: #fff;
+}
+.linkmid{
+    width: 9.14rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    background: url("../../images/finance/jiantou.png") right no-repeat;
+    background-size:0.18rem 0.32rem ;
+}
+.linkmid>img{
+    margin-top: 0.4rem;
+    width: 0.43rem;
+    height: 0.43rem;
+    float: left;
+}
+.linkmid>span{
+    display: inline-block;
+    float: left;
+    font-size: 0.43rem;
+    color: #666;
+    margin-left: 0.16rem;
+    margin-top: 0.3rem;
+}
+.feature{
+    width: 10rem;
+    height: 3.76rem;
+    margin-top: 0.43rem;
+    background: #fff;
+    overflow: hidden;
+}
+.msgtitle{
+    width: 9.14rem;
+    height: 0.43rem;
+    margin: 0.43rem auto 0 auto;
+    border-left: 0.08rem solid #FF6F43;
+    box-sizing: border-box;
+}
+.msgtitle>p{
+    text-indent: 0.21rem;
+    font-size: 0.43rem;
+    float: left;
+    margin-top: -0.06rem;
+    color: #333;
+    font-weight: bold;
+}
+.feacot{
+    width: 9.14rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.fealist{
+    margin-top: 0.53rem;
+    text-align: center;
+}
+.fealist p{
+    font-size: 0.32rem;
+    color: #333;
+}
+.rule{
+    width: 10rem;
+    height: 6.93rem;
+    margin-top: 0.43rem;
+    background: #fff;
+    overflow: hidden;
+}
+.rulelist{
+    width: 9.14rem;
+    margin: 0 auto;
+
+}
+.rulelist{
+    width: 9.14rem;
+    border-top: 0.03rem solid #e5e5e5;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.rulelist{
+    margin-top: 0.53rem;
+}
+.rulelist:nth-of-type(n+2){
+    margin-top: 0;
+}
+.rulelist p{
+    padding: 0.33rem 0;
+    font-size: 0.37rem;
+}
+.rulelist p:first-of-type{
+    color: #999;
+    float: left;
+}
+.rulelist p:last-of-type{
+    color: #666;
+    width: 6.85rem;
+    float: right;
+}
+.tips{
+    width: 10rem;
+    height: 2.48rem;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 0.43rem;
+}
+.tips>p{
+    margin-top: 0.53rem;
+    text-indent: 0.43rem;
+    font-size: 0.37rem;
+    color: #666;
+}

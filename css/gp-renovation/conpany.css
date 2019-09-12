@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    cursor: pointer;
+}
+.conpany{
+    width: 10rem;
+}
+.conpanymid{
+    width: 9.14rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.conpanylist{
+    width: 9.14rem;
+    height: 2.35rem;
+    margin-top: 0.4rem;
+    border-bottom: 0.03rem solid rgba(237,237,237,1);
+}
+.conpanylist img{
+    width: 1.87rem;
+    height: 1.87rem;
+    float: left;
+}
+.conpanytext{
+    width: 6.5rem;
+    height: 1.87rem;
+    margin-left: 0.53rem;
+    float: left;
+}
+.conpanytext p:nth-of-type(1){
+    font-size: 0.43rem;
+}
+.stars{
+    width: 2rem;
+    height: 0.4rem;
+    list-style: none;
+    margin-top: 0.2rem;
+    display: inline-block;
+    float: left;
+}
+.stars li{
+    float: left;
+    margin-right: 0.05rem;
+}
+
+.stars li img{
+    width: 0.32rem;
+    height: 0.31rem;
+    margin-top: 0.05rem;
+}
+.conpanytext>p>a{
+    color: #333;
+}
+.starrow>a{
+    font-size: 0.37rem;
+    color: #333;
+    float: left;
+    display: inline;
+    margin-top: 0.12rem;
+}
+.conpanytext .starrow{
+    width: 4rem;
+    height: 0.8rem;
+
+}
+.starrow span{
+    font-size: 0.37rem;
+    float: left;
+    margin-top: 0.16rem;
+}
+.conpanytext p:nth-of-type(2){
+    font-size: 0.37rem;
+    color: #999;
+}
